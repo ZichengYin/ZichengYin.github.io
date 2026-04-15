@@ -16,7 +16,14 @@ import { NotionToMarkdown } from 'notion-to-md'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const rootDir = path.resolve(__dirname, '..')
+const appRootDir = path.resolve(__dirname, '..')
+const repoRootCandidate = path.resolve(appRootDir, '..')
+
+function hasContentRoot(dir: string): boolean {
+  return fs.existsSync(path.join(dir, '_config.yml')) || fs.existsSync(path.join(dir, 'blog'))
+}
+
+const contentRootDir = hasContentRoot(repoRootCandidate) ? repoRootCandidate : appRootDir
 
 interface ProfileData {
   name?: string
@@ -80,7 +87,7 @@ interface ProjectData {
 }
 
 function readConfig(): Config {
-  const configPath = path.join(rootDir, '_config.yml')
+  const configPath = path.join(contentRootDir, '_config.yml')
   if (fs.existsSync(configPath)) {
     return yaml.load(fs.readFileSync(configPath, 'utf-8')) as Config
   }
@@ -88,7 +95,7 @@ function readConfig(): Config {
 }
 
 async function readProfile(): Promise<ProfileData> {
-  const profilePath = path.join(rootDir, 'blog', 'profile.md')
+  const profilePath = path.join(contentRootDir, 'blog', 'profile.md')
   if (!fs.existsSync(profilePath)) {
     return {}
   }
@@ -126,7 +133,7 @@ async function fetchNotionContent(notion: Client, pageId: string): Promise<strin
 }
 
 async function readMarkdownFiles(dir: string, notion: Client | null): Promise<ProjectData[]> {
-  const dirPath = path.join(rootDir, dir)
+  const dirPath = path.join(contentRootDir, dir)
   if (!fs.existsSync(dirPath)) {
     return []
   }
@@ -186,7 +193,7 @@ export function getProjectById(id: string): Project | undefined {
   return projects.find(project => project.id === id)
 }
 `
-  fs.writeFileSync(path.join(rootDir, 'src', 'data', 'projects.ts'), code)
+  fs.writeFileSync(path.join(appRootDir, 'src', 'data', 'projects.ts'), code)
   console.log(`✅ Generated src/data/projects.ts (${published.length} projects, ${projects.length - published.length} drafts)`)
 }
 
@@ -209,13 +216,13 @@ import type { SiteConfig } from '../types'
 
 export const siteConfig: SiteConfig = ${JSON.stringify(safeConfig, null, 2)}
 `
-  fs.writeFileSync(path.join(rootDir, 'src', 'data', 'config.ts'), code)
+  fs.writeFileSync(path.join(appRootDir, 'src', 'data', 'config.ts'), code)
   console.log('✅ Generated src/data/config.ts')
 }
 
 function copyImages(): void {
-  const srcDir = path.join(rootDir, 'blog', 'images')
-  const destDir = path.join(rootDir, 'public', 'images')
+  const srcDir = path.join(contentRootDir, 'blog', 'images')
+  const destDir = path.join(appRootDir, 'public', 'images')
 
   if (!fs.existsSync(srcDir)) {
     return
@@ -239,7 +246,7 @@ function copyImages(): void {
 async function main(): Promise<void> {
   console.log('\n📦 Building content...\n')
 
-  const dataDir = path.join(rootDir, 'src', 'data')
+  const dataDir = path.join(appRootDir, 'src', 'data')
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true })
   }
