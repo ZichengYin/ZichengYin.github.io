@@ -28,6 +28,12 @@ jobs:
           cache: 'npm'
           cache-dependency-path: '.kip/package.json'
 
+      - name: Sync site content into app directory
+        run: |
+          cp _config.yml .kip/_config.yml
+          rm -rf .kip/blog
+          cp -R blog .kip/blog
+
       - name: Install dependencies
         working-directory: ./.kip
         run: npm install
