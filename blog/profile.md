@@ -1,11 +1,12 @@
 ---
-name: Your Name
-bio: Developer, designer, creator. Building things for the web.
-avatar: images/avatar.svg
+name: Zicheng Yin | Ray Yin
+bio: Music Technology student at Shanghai Conservatory of Music (Class of 2027). Guitarist &  artist. Focused on creative coding, AI, and game audio.
+avatar: /images/avatar.jpeg
 social:
-  github: https://github.com/yourusername
-  twitter: https://twitter.com/yourusername
-  email: hello@example.com
+  github: https://github.com/ZichengYin
+  bilibili: https://space.bilibili.com/287010574
+  youtube: https://www.youtube.com/channel/UC_i40jBOcn6bBhMjUT14XgA
+  email: 760729@qq.com
 ---
 
 <!-- Optional: Add extended bio content here in markdown -->
