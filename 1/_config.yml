@@ -1,0 +1,27 @@
+# Site Configuration
+
+# Site
+title: Zicheng Yin
+root: /
+
+# Theme: dark | light | ocean | forest | sunset
+theme: dark
+
+# Layout Options
+layout:
+  # Project list style: list | grid | cards
+  style: list
+  # Avatar shape: circle | square
+  avatar: circle
+  # Card style: bordered | shadow | flat
+  card: bordered
+
+# Deploy Settings
+deploy:
+  repo: https://github.com/username/username.github.io.git
+  branch: main
+  message: Deploy from Kip
+
+# Notion Integration (optional)
+notion:
+  api_key: YOUR_NOTION_API_KEY
