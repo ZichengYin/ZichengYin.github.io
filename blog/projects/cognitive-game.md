@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Cognitive Rehabilitation Training Quiz System for Children with Cognitive Impairments
 description: A quiz-based rehabilitation system specifically designed for children with cognitive impairments
