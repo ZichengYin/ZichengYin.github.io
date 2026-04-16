@@ -6,6 +6,8 @@ tags:
   - 医疗康复
   - 教育
   - 交互设计
+github: https://github.com/你的用户名/项目仓库名   
+demo: https://youtu.be/你的视频ID   
 ---
 
 ## 项目简介

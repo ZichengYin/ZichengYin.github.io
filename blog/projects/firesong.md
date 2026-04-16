@@ -6,6 +6,8 @@ tags:
   - 2D游戏
   - 射击
   - 独立开发
+github: https://github.com/你的用户名/项目仓库名   
+demo: https://youtu.be/你的视频ID  
 ---
 
 ## 项目简介

@@ -6,6 +6,8 @@ tags:
   - VR
   - 音乐教育
   - Unity
+github: https://github.com/你的用户名/项目仓库名   
+demo: https://youtu.be/你的视频ID  
 ---
 
 ## 项目简介

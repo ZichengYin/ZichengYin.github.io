@@ -6,6 +6,8 @@ tags:
   - 混音
   - 民乐
   - 音频制作
+github: https://github.com/你的用户名/项目仓库名   
+demo: https://youtu.be/你的视频ID  
 ---
 
 ## 作品简介
