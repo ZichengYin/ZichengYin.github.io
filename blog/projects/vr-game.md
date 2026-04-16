@@ -6,7 +6,7 @@ tags:
   - VR
   - Music Education
   - Unity
-image: blog/images/vr-game-cover.jpg
+image: images/vr-game-cover.jpg
 ---
 
 ## Project Introduction

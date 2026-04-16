@@ -6,7 +6,7 @@ tags:
   - Music Education
   - Rhythm Training
   - Gamification
-image: blog/images/desert-cover.jpg
+image: images/desert-cover.jpg
 ---
 
 ## Project Introduction
