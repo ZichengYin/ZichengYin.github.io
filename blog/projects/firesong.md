@@ -1,30 +1,32 @@
+```markdown
 ---
-title: firesong 2D射击游戏
-description: 一款2D射击游戏，融合音乐元素
+title: firesong 2D Shooter Game
+description: A 2D shooter game that integrates musical elements
 date: 2026-04-15
 tags:
-  - 2D游戏
-  - 射击
-  - 独立开发
+  - 2D Game
+  - Shooter
+  - Indie Development
 ---
 
-## 项目简介
+## Project Introduction
 
-firesong是一款2D射击游戏，玩家在射击闯关的同时感受音乐与节奏的融合。
+firesong is a 2D shooter game where players experience the fusion of music and rhythm while shooting their way through levels.
 
-## 相关链接
+## Related Links
 
-- [GitHub 仓库](https://github.com/...)
-- [演示视频](https://youtu.be/...)
-- [在线试玩](https://...)
-- [项目文档](https://...)
+- [GitHub Repository](https://github.com/...)
+- [Demo Video](https://youtu.be/...)
+- [Play Online](https://...)
+- [Project Documentation](https://...)
 
-## 技术栈
+## Tech Stack
 
-- 开发引擎：待补充
-- 游戏类型：2D射击
+- Development Engine: To be added
+- Game Type: 2D Shooter
 
-## 项目亮点
+## Project Highlights
 
-- 射击与音乐结合
-- 快节奏战斗体验
+- Combination of shooting and music
+- Fast-paced combat experience
+```

@@ -1,30 +1,32 @@
+```markdown
 ---
-title: 民乐混音作品
-description: 民族音乐混音制作
+title: Chinese Traditional Music Mixing Project
+description: Traditional Chinese music mixing production
 date: 2026-04-15
 tags:
-  - 混音
-  - 民乐
-  - 音频制作
+  - Mixing
+  - Chinese Traditional Music
+  - Audio Production
 ---
 
-## 作品简介
+## Project Introduction
 
-民族音乐混音作品，通过现代混音技术呈现传统民乐的独特韵味。
+A traditional Chinese music mixing project that presents the unique charm of traditional folk music through modern mixing techniques.
 
-## 相关链接
+## Related Links
 
-- [GitHub 仓库](https://github.com/...)
-- [演示视频](https://youtu.be/...)
-- [在线试玩](https://...)
-- [项目文档](https://...)
+- [GitHub Repository](https://github.com/...)
+- [Demo Video](https://youtu.be/...)
+- [Play Online](https://...)
+- [Project Documentation](https://...)
 
-## 技术工具
+## Tools & Tech
 
-- DAW：待补充
-- 主要处理：均衡、动态、空间效果
+- DAW: To be added
+- Main Processing: EQ, Dynamics, Spatial effects
 
-## 作品特点
+## Project Features
 
-- 保留民乐原声质感
-- 现代混音手法融合
+- Preserves the authentic texture of traditional Chinese music
+- Blends modern mixing techniques
+```

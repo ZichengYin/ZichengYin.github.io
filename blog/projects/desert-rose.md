@@ -1,30 +1,32 @@
+```markdown
 ---
-title: 《沙漠蔷薇》时值训练游戏
-description: 专注于音乐时值训练的游戏化学习工具
+title: "Desert Rose" Timing Training Game
+description: A gamified learning tool focused on musical timing training
 date: 2026-04-15
 tags:
-  - 音乐教育
-  - 节奏训练
-  - 游戏化
+  - Music Education
+  - Rhythm Training
+  - Gamification
 ---
 
-## 项目简介
+## Project Introduction
 
-《沙漠蔷薇》是一款音乐时值训练游戏，帮助玩家提升节奏感和时值把控能力。
+"Desert Rose" is a music timing training game that helps players improve their sense of rhythm and timing control.
 
-## 相关链接
+## Related Links
 
-- [GitHub 仓库](https://github.com/...)
-- [演示视频](https://youtu.be/...)
-- [在线试玩](https://...)
-- [项目文档](https://...)
+- [GitHub Repository](https://github.com/...)
+- [Demo Video](https://youtu.be/...)
+- [Play Online](https://...)
+- [Project Documentation](https://...)
 
-## 技术栈
+## Tech Stack
 
-- 开发工具：待补充
-- 核心玩法：节奏匹配、时值判断
+- Development Tools: To be added
+- Core Gameplay: Rhythm matching, Timing judgment
 
-## 项目亮点
+## Project Highlights
 
-- 游戏化学习体验
-- 即时节奏反馈
+- Gamified learning experience
+- Real-time rhythm feedback
+```

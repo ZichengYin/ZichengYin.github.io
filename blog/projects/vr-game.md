@@ -1,36 +1,38 @@
+```markdown
 ---
-title: VR眼镜虚拟云锣演奏教学游戏
-description: 一款基于VR技术的云锣演奏教学游戏
+title: VR Cloud Gong Performance Teaching Game
+description: A VR-based Cloud Gong performance teaching game
 date: 2026-04-15
 tags:
   - VR
-  - 音乐教育
+  - Music Education
   - Unity
 ---
 
-## 项目简介
+## Project Introduction
 
-这是一个使用VR眼镜的虚拟云锣演奏教学游戏。玩家可以通过手势模拟敲击云锣，学习正确的演奏技巧。
+This is a virtual Cloud Gong performance teaching game using VR headset. Players can simulate striking the Cloud Gong through gestures to learn proper playing techniques.
 
-## 相关链接
+## Related Links
 
-- [GitHub 仓库](https://github.com/...)
-- [演示视频](https://youtu.be/...)
-- [在线试玩](https://...)
-- [项目文档](https://...)
+- [GitHub Repository](https://github.com/...)
+- [Demo Video](https://youtu.be/...)
+- [Play Online](https://...)
+- [Project Documentation](https://...)
 
-## 技术栈
+## Tech Stack
 
-- 开发引擎：Unity
-- 硬件平台：VR眼镜
-- 交互方式：手势识别
+- Development Engine: Unity
+- Hardware Platform: VR Headset
+- Interaction Method: Gesture Recognition
 
-## 我的角色
+## My Role
 
-- 程序开发
-- 交互设计
+- Programming
+- Interaction Design
 
-## 项目亮点
+## Project Highlights
 
-- 实时手势识别与反馈
-- 教学与游戏结合
+- Real-time gesture recognition and feedback
+- Integration of teaching and gameplay
+```

@@ -1,35 +1,37 @@
+```markdown
 ---
-title: 认知障碍患儿康复训练答题系统
-description: 专为认知障碍患儿设计的康复训练答题系统
+title: Cognitive Rehabilitation Training Quiz System for Children with Cognitive Impairments
+description: A quiz-based rehabilitation system specifically designed for children with cognitive impairments
 date: 2026-04-15
 tags:
-  - 医疗康复
-  - 教育
-  - 交互设计
+  - Medical Rehabilitation
+  - Education
+  - Interaction Design
 ---
 
-## 项目简介
+## Project Introduction
 
-一个针对认知障碍患儿的康复训练答题系统，通过趣味答题帮助患儿锻炼认知能力。
+A rehabilitation training quiz system for children with cognitive impairments, designed to help them exercise their cognitive abilities through engaging quiz activities.
 
-## 相关链接
+## Related Links
 
-- [GitHub 仓库](https://github.com/...)
-- [演示视频](https://youtu.be/...)
-- [在线试玩](https://...)
-- [项目文档](https://...)
+- [GitHub Repository](https://github.com/...)
+- [Demo Video](https://youtu.be/...)
+- [Play Online](https://...)
+- [Project Documentation](https://...)
 
-## 技术栈
+## Tech Stack
 
-- 开发平台：待补充
-- 核心功能：答题训练、进度追踪
+- Development Platform: To be added
+- Core Features: Quiz training, Progress tracking
 
-## 我的角色
+## My Role
 
-- 程序开发
-- 系统设计
+- Programming
+- System Design
 
-## 项目亮点
+## Project Highlights
 
-- 针对患儿特点设计的交互界面
-- 个性化训练难度调节
+- Interactive interface designed specifically for the needs of children with impairments
+- Personalized difficulty adjustment for training
+```
