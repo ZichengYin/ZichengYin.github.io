@@ -5,12 +5,12 @@ title: Zicheng Yin
 root: /
 
 # Theme: dark | light | ocean | forest | sunset
-theme: sunset
+theme: ocean
 
 # Layout Options
 layout:
   # Project list style: list | grid | cards
-  style: cards
+  style: grid
   # Avatar shape: circle | square
   avatar: square
   # Card style: bordered | shadow | flat
