@@ -1,4 +1,3 @@
-```markdown
 ---
 title: VR Cloud Gong Performance Teaching Game
 description: A VR-based Cloud Gong performance teaching game
@@ -7,6 +6,7 @@ tags:
   - VR
   - Music Education
   - Unity
+image: /blog/images/vr-game-cover.jpg
 ---
 
 ## Project Introduction

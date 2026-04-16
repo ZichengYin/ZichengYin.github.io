@@ -1,4 +1,3 @@
-```markdown
 ---
 title: firesong 2D Shooter Game
 description: A 2D shooter game that integrates musical elements
@@ -7,6 +6,7 @@ tags:
   - 2D Game
   - Shooter
   - Indie Development
+image: /blog/images/firesong-cover.jpg
 ---
 
 ## Project Introduction

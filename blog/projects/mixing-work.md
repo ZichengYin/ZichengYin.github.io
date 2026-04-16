@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Chinese Traditional Music Mixing Project
 description: Traditional Chinese music mixing production
@@ -7,6 +6,7 @@ tags:
   - Mixing
   - Chinese Traditional Music
   - Audio Production
+image: /blog/images/mix1-cover.jpg
 ---
 
 ## Project Introduction
