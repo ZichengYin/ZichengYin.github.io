@@ -6,13 +6,18 @@ tags:
   - VR
   - 音乐教育
   - Unity
-github: https://github.com/你的用户名/项目仓库名   
-demo: https://youtu.be/你的视频ID  
 ---
 
 ## 项目简介
 
 这是一个使用VR眼镜的虚拟云锣演奏教学游戏。玩家可以通过手势模拟敲击云锣，学习正确的演奏技巧。
+
+## 相关链接
+
+- [GitHub 仓库](https://github.com/...)
+- [演示视频](https://youtu.be/...)
+- [在线试玩](https://...)
+- [项目文档](https://...)
 
 ## 技术栈
 

@@ -6,13 +6,18 @@ tags:
   - 音乐教育
   - 节奏训练
   - 游戏化
-github: https://github.com/你的用户名/项目仓库名   
-demo: https://youtu.be/你的视频ID  
 ---
 
 ## 项目简介
 
 《沙漠蔷薇》是一款音乐时值训练游戏，帮助玩家提升节奏感和时值把控能力。
+
+## 相关链接
+
+- [GitHub 仓库](https://github.com/...)
+- [演示视频](https://youtu.be/...)
+- [在线试玩](https://...)
+- [项目文档](https://...)
 
 ## 技术栈
 

@@ -6,13 +6,18 @@ tags:
   - 混音
   - 民乐
   - 音频制作
-github: https://github.com/你的用户名/项目仓库名   
-demo: https://youtu.be/你的视频ID  
 ---
 
 ## 作品简介
 
 民族音乐混音作品，通过现代混音技术呈现传统民乐的独特韵味。
+
+## 相关链接
+
+- [GitHub 仓库](https://github.com/...)
+- [演示视频](https://youtu.be/...)
+- [在线试玩](https://...)
+- [项目文档](https://...)
 
 ## 技术工具
 

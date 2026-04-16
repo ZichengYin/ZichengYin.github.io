@@ -6,13 +6,18 @@ tags:
   - 2D游戏
   - 射击
   - 独立开发
-github: https://github.com/你的用户名/项目仓库名   
-demo: https://youtu.be/你的视频ID  
 ---
 
 ## 项目简介
 
 firesong是一款2D射击游戏，玩家在射击闯关的同时感受音乐与节奏的融合。
+
+## 相关链接
+
+- [GitHub 仓库](https://github.com/...)
+- [演示视频](https://youtu.be/...)
+- [在线试玩](https://...)
+- [项目文档](https://...)
 
 ## 技术栈
 
