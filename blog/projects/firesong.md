@@ -6,7 +6,7 @@ tags:
   - 2D Game
   - Shooter
   - Indie Development
-image: /blog/images/firesong-cover.jpg
+image: blog/images/firesong-cover.jpg
 ---
 
 ## Project Introduction

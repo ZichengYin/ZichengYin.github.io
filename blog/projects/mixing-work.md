@@ -6,7 +6,7 @@ tags:
   - Mixing
   - Chinese Traditional Music
   - Audio Production
-image: /blog/images/mix1-cover.jpg
+image: blog/images/mix1-cover.jpg
 ---
 
 ## Project Introduction

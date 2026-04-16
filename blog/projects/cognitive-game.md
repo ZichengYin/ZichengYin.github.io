@@ -6,7 +6,7 @@ tags:
   - Medical Rehabilitation
   - Education
   - Interaction Design
-image: /blog/images/cognitive-cover.jpg
+image: blog/images/cognitive-cover.jpg
 ---
 
 ## Project Introduction
