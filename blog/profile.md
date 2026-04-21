@@ -74,7 +74,6 @@ social:
         <!-- 原始 13 张照片 -->
         <div class="photo-item" onclick="openLightbox(this)"><img src="images/1.jpg" alt="photo 1"></div>
         <div class="photo-item" onclick="openLightbox(this)"><img src="images/2.jpg" alt="photo 2"></div>
-        <div class="photo-item" onclick="openLightbox(this)"><img src="images/3.png" alt="photo 3"></div>
         <div class="photo-item" onclick="openLightbox(this)"><img src="images/4.jpg" alt="photo 4"></div>
         <div class="photo-item" onclick="openLightbox(this)"><img src="images/5.jpg" alt="photo 5"></div>
         <div class="photo-item" onclick="openLightbox(this)"><img src="images/6.jpg" alt="photo 6"></div>
@@ -88,7 +87,6 @@ social:
         <!-- 复制一份用于无缝衔接 -->
         <div class="photo-item" onclick="openLightbox(this)"><img src="images/1.jpg" alt="photo 1"></div>
         <div class="photo-item" onclick="openLightbox(this)"><img src="images/2.jpg" alt="photo 2"></div>
-        <div class="photo-item" onclick="openLightbox(this)"><img src="images/3.png" alt="photo 3"></div>
         <div class="photo-item" onclick="openLightbox(this)"><img src="images/4.jpg" alt="photo 4"></div>
         <div class="photo-item" onclick="openLightbox(this)"><img src="images/5.jpg" alt="photo 5"></div>
         <div class="photo-item" onclick="openLightbox(this)"><img src="images/6.jpg" alt="photo 6"></div>
