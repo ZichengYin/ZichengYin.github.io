@@ -10,5 +10,11 @@ social:
   youtube: https://www.youtube.com/channel/UC_i40jBOcn6bBhMjUT14XgA
   email: 760729@qq.com
 ---
+## MY WORK
 
+![band](images/1.jpg)
+
+![music relative activities](images/2.jpg)
+
+![school life](images/3.png)
 <!-- Optional: Add extended bio content here in markdown -->

@@ -15,10 +15,9 @@ A rehabilitation training quiz system for children with cognitive impairments, d
 
 ## Related Links
 
-- [GitHub Repository](https://github.com/...)
+- [GitHub Repository](https://github.com/ZichengYin/Cognitive-Rehabilitation-Training-Quiz-System)
 - [Demo Video](https://youtu.be/...)
-- [Play Online](https://...)
-- [Project Documentation](https://...)
+- [Play Online](https://zichengyin.github.io/Cognitive-Rehabilitation-Training-Quiz-System/)
 
 ## Tech Stack
 
