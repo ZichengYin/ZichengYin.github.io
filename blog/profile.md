@@ -14,13 +14,13 @@ social:
 .photo-carousel {
     overflow-x: hidden;
     white-space: nowrap;
-    margin: 2rem 0;
+    margin: 2rem -1rem;
     position: relative;
 }
 .photo-track {
     display: inline-block;
     white-space: nowrap;
-    animation: scroll 20s linear infinite;
+    animation: scroll 40s linear infinite;  /* 13张照片，速度调慢 */
 }
 .photo-track:hover {
     animation-play-state: paused;
@@ -71,14 +71,34 @@ social:
 
 <div class="photo-carousel">
     <div class="photo-track">
-        <!-- 原始照片 -->
-        <div class="photo-item" onclick="openLightbox(this)"><img src="images/1.jpg" alt="band"></div>
-        <div class="photo-item" onclick="openLightbox(this)"><img src="images/2.jpg" alt="music activities"></div>
-        <div class="photo-item" onclick="openLightbox(this)"><img src="images/3.png" alt="school life"></div>
+        <!-- 原始 13 张照片 -->
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/1.jpg" alt="photo 1"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/2.jpg" alt="photo 2"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/3.png" alt="photo 3"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/4.jpg" alt="photo 4"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/5.jpg" alt="photo 5"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/6.jpg" alt="photo 6"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/7.jpg" alt="photo 7"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/8.jpg" alt="photo 8"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/9.jpg" alt="photo 9"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/10.jpg" alt="photo 10"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/11.jpg" alt="photo 11"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/12.jpg" alt="photo 12"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/13.jpg" alt="photo 13"></div>
         <!-- 复制一份用于无缝衔接 -->
-        <div class="photo-item" onclick="openLightbox(this)"><img src="images/1.jpg" alt="band"></div>
-        <div class="photo-item" onclick="openLightbox(this)"><img src="images/2.jpg" alt="music activities"></div>
-        <div class="photo-item" onclick="openLightbox(this)"><img src="images/3.png" alt="school life"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/1.jpg" alt="photo 1"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/2.jpg" alt="photo 2"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/3.png" alt="photo 3"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/4.jpg" alt="photo 4"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/5.jpg" alt="photo 5"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/6.jpg" alt="photo 6"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/7.jpg" alt="photo 7"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/8.jpg" alt="photo 8"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/9.jpg" alt="photo 9"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/10.jpg" alt="photo 10"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/11.jpg" alt="photo 11"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/12.jpg" alt="photo 12"></div>
+        <div class="photo-item" onclick="openLightbox(this)"><img src="images/13.jpg" alt="photo 13"></div>
     </div>
 </div>
 
