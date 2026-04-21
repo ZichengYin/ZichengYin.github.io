@@ -1,5 +1,5 @@
 ---
-title: Desert Rose - Timing Training Game
+title: 3. Desert Rose - Timing Training Game
 description: A gamified learning tool focused on musical timing training
 date: 2026-04-15
 tags:

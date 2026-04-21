@@ -1,5 +1,5 @@
 ---
-title: firesong 2D Shooter Game
+title: 1. Firesong 2D Shooter Game
 description: A 2D shooter game that integrates musical elements
 date: 2026-03-15
 tags:

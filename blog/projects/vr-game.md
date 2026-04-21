@@ -1,5 +1,5 @@
 ---
-title: VR Cloud Gong Performance Teaching Game
+title: 4. VR Cloud Gong Performance Teaching Game
 description: A VR-based Cloud Gong performance teaching game
 date: 2026-04-15
 tags:

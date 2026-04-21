@@ -1,5 +1,5 @@
 ---
-title: Cognitive Rehabilitation Training Quiz System for Children with Cognitive Impairments
+title: 2. Cognitive Rehabilitation Training Quiz System for Children with Cognitive Impairments
 description: A quiz-based rehabilitation system specifically designed for children with cognitive impairments
 date: 2026-04-15
 tags:
