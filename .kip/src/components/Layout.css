@@ -246,3 +246,24 @@
     font-size: 1.5rem;
   }
 }
+/* 语言切换按钮样式 */
+.lang-switcher {
+  margin-left: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  color: inherit;
+}
+
+.lang-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
