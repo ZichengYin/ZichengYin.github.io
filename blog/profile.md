@@ -3,7 +3,8 @@ name: Zicheng Yin | Ray Yin
 bio: |
   Music Technology student at Shanghai Conservatory of Music (Class of 2027).
   Guitarist & artist. Focused on creative coding, AI, and game production.
-  Check out my work: project demos on YouTube & Bilibili, art portfolio on Lofter.
+  
+  <small><span style="color: gray;">Check out my work: project demos on YouTube & Bilibili, art portfolio on Lofter.</span></small>
 avatar: images/avatar.jpeg
 social:
   github: https://github.com/ZichengYin
