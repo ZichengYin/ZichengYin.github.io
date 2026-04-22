@@ -65,7 +65,7 @@ function Home() {
         <div className="avatar">
           <img src={`${baseUrl}${siteConfig.avatar}`} alt={siteConfig.name} />
         </div>
-        <h1 className="name">{siteConfig.name}</h1>
+        <h1 className="name notranslate">{siteConfig.name}</h1>
         <p className="bio">{siteConfig.bio}</p>
         {siteConfig.profileHtml && (
           <div
