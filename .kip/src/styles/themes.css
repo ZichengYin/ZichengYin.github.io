@@ -34,16 +34,16 @@
   --tag-bg: rgba(0, 180, 216, 0.2);
 }
 
-/* Theme: forest */
-[data-theme="forest"] {
-  --primary-color: #52b788;
-  --text-primary: #d8f3dc;
-  --text-secondary: #95d5b2;
-  --bg-primary: #1b4332;
-  --bg-secondary: #2d6a4f;
-  --card-bg: #2d6a4f;
-  --border-color: #40916c;
-  --tag-bg: rgba(82, 183, 136, 0.2);
+/* Theme: deep red */
+[data-theme="deepred"] {
+  --primary-color: #c62828;
+  --text-primary: #f5f5f5;
+  --text-secondary: #bdbdbd;
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2c2c2c;
+  --card-bg: #2c2c2c;
+  --border-color: #424242;
+  --tag-bg: rgba(198, 40, 40, 0.15);
 }
 
 /* Theme: sunset */
