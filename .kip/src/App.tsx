@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import { siteConfig } from './data/config'
 import Home from './pages/Home'
 import ProjectDetail from './pages/ProjectDetail'
+import ArtGallery from './pages/ArtGallery'
 import './App.css'
 
 function App() {
@@ -29,10 +30,11 @@ function App() {
   }, [])
 
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/projects/:projectId" element={<ProjectDetail />} />
-    </Routes>
+<Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/projects/:projectId" element={<ProjectDetail />} />
+  <Route path="/art" element={<ArtGallery />} />  {/* ← 添加这一行 */}
+</Routes>
   )
 }
 
