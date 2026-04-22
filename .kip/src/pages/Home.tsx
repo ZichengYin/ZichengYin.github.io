@@ -10,6 +10,7 @@ const baseUrl = import.meta.env.BASE_URL
 function Home() {
   const [copied, setCopied] = useState(false)
   const [visitorCount, setVisitorCount] = useState<number | null>(null)
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null)
 
   useEffect(() => {
     // Fetch visitor count from Umami API if configured
@@ -60,6 +61,7 @@ function Home() {
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
+
   return (
     <div className="home">
       <header className="profile">
@@ -141,7 +143,11 @@ function Home() {
         <h2>Gallery</h2>
         <div className="gallery-grid">
           {galleryItems.map(item => (
-            <div key={item.id} className="gallery-item">
+            <div 
+              key={item.id} 
+              className="gallery-item"
+              onClick={() => setLightboxImage(`${baseUrl}${item.image}`)}
+            >
               <img src={`${baseUrl}${item.image}`} alt={item.title} />
               <h3>{item.title}</h3>
               <p>{item.description}</p>
@@ -149,6 +155,14 @@ function Home() {
           ))}
         </div>
       </section>
+
+      {/* Lightbox 放大效果 */}
+      {lightboxImage && (
+        <div className="lightbox" onClick={() => setLightboxImage(null)}>
+          <span className="close">&times;</span>
+          <img src={lightboxImage} alt="Enlarged view" />
+        </div>
+      )}
 
       <footer className="footer">
         {visitorCount !== null && (
@@ -164,4 +178,3 @@ function Home() {
 }
 
 export default Home
-  
