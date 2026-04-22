@@ -168,6 +168,7 @@ function Home() {
             <div 
               key={item.id} 
               className="gallery-item"
+              onClick={() => window.open(`${baseUrl}${item.image}`, '_blank')}
             >
               <img src={`${baseUrl}${item.image}`} alt={item.title} />
               <h3>{item.title}</h3>
