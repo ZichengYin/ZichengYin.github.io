@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { projects } from '../data/projects'
+import { galleryItems } from '../data/gallery'
 import { siteConfig } from '../data/config'
 import './Home.css'
 
@@ -136,6 +137,19 @@ function Home() {
         </ul>
       </section>
 
+      <section className="gallery-section">
+        <h2>Gallery</h2>
+        <div className="gallery-grid">
+          {galleryItems.map(item => (
+            <div key={item.id} className="gallery-item">
+              <img src={`${baseUrl}${item.image}`} alt={item.title} />
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <footer className="footer">
         {visitorCount !== null && (
           <p className="visitor-count">Total visits: {visitorCount}</p>
@@ -150,3 +164,49 @@ function Home() {
 }
 
 export default Home
+  
+/* Gallery Section */
+.gallery-section {
+  margin-top: 3rem;
+}
+
+.gallery-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.gallery-item {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-4px);
+}
+
+.gallery-item img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item h3 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1rem;
+}
+
+.gallery-item p {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
