@@ -22,16 +22,16 @@
   --tag-bg: rgba(175, 184, 193, 0.2);
 }
 
-/* Theme: ocean */
+/* Theme: sunset sea */
 [data-theme="ocean"] {
-  --primary-color: #00b4d8;
-  --text-primary: #caf0f8;
-  --text-secondary: #90e0ef;
-  --bg-primary: #03045e;
-  --bg-secondary: #023e8a;
-  --card-bg: #023e8a;
-  --border-color: #0077b6;
-  --tag-bg: rgba(0, 180, 216, 0.2);
+  --primary-color: #f4a261;     /* 暖橙色（夕阳/强调色） */
+  --text-primary: #ffffff;       /* 白色文字 */
+  --text-secondary: #cbd5e1;     /* 浅灰蓝文字 */
+  --bg-primary: #0f172a;         /* 深蓝黑（深海） */
+  --bg-secondary: #1e293b;       /* 深灰蓝（海面） */
+  --card-bg: #1e293b;            /* 卡片同海面 */
+  --border-color: #334155;       /* 蓝灰边框 */
+  --tag-bg: rgba(244, 162, 97, 0.15);  /* 半透明暖橙标签 */
 }
 
 /* Theme: deep red */
