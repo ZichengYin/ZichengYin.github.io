@@ -90,7 +90,7 @@ social:
     font-weight: 500;
     letter-spacing: 2px;
     margin: 1.5rem 0 1rem 0;
-    color: #555;
+    color: #ffffff;
     text-transform: uppercase;
 }
 </style>
