@@ -58,5 +58,5 @@ This project is a rehabilitation training quiz system for children with cognitiv
 
 ## Related Documents
 
-- [Production Report (PDF)](./files/Production_Report.pdf)
-- [Business Plan (PDF)](./files/Business_Plan.pdf)
+- [Production Report (PDF)](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Production%20Report.pdf)
+- [Business Plan (PDF)](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Business%20Plan.pdf)
