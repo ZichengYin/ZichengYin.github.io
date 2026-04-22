@@ -35,15 +35,15 @@
 }
 
 /* Theme: deep red */
-[data-theme="deepred"] {
-  --primary-color: #c62828;
-  --text-primary: #f5f5f5;
-  --text-secondary: #bdbdbd;
-  --bg-primary: #1a1a1a;
-  --bg-secondary: #2c2c2c;
-  --card-bg: #2c2c2c;
-  --border-color: #424242;
-  --tag-bg: rgba(198, 40, 40, 0.15);
+[data-theme="forest"] {
+  --primary-color: #e53935;     /* 正红（强调色） */
+  --text-primary: #ffffff;      /* 白色主要文字 */
+  --text-secondary: #e0e0e0;    /* 浅灰白次要文字 */
+  --bg-primary: #3d0c0c;        /* 深红主背景 */
+  --bg-secondary: #5c1515;      /* 稍浅深红（侧边栏/卡片背景） */
+  --card-bg: #5c1515;           /* 卡片背景 */
+  --border-color: #8b2a2a;      /* 红色边框 */
+  --tag-bg: rgba(229, 57, 53, 0.2);  /* 半透明红标签 */
 }
 
 /* Theme: sunset */
