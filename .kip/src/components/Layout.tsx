@@ -85,7 +85,7 @@ function Layout({ children }: LayoutProps) {
             <div className="avatar">
               <img src={`${baseUrl}${siteConfig.avatar}`} alt="Avatar" />
             </div>
-            <h3 className="profile-name">{siteConfig.author}</h3>
+            <h3 className="profile-name notranslate">{siteConfig.author}</h3>
             <p className="profile-bio">{siteConfig.description}</p>
             {siteConfig.social && (
               <div className="social-links">
