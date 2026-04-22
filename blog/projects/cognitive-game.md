@@ -7,7 +7,7 @@ tags:
   - Brain-Computer Interface
   - Education
   - Interaction Design
-image: images/cognitive-cover.jpg
+image: images/cognitive-cover.jpg?raw=true
 ---
 
 ## Project Introduction
