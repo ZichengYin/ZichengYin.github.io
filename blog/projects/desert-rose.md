@@ -1,7 +1,7 @@
 ---
 title: 3. Desert Rose - Timing Training Game
 description: A gamified music timing training game that transforms abstract note duration concepts into immersive gameplay, featuring dual visual-auditory feedback and a war-to-peace thematic evolution.
-date: 2024-12-05
+date: 2025-04-05
 tags:
   - Music Education
   - Rhythm Training
