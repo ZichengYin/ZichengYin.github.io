@@ -65,6 +65,7 @@ function Layout({ children }: LayoutProps) {
           <NavLink to="/archives">Archives</NavLink>
           <NavLink to="/tags">Tags</NavLink>
           <NavLink to="/projects">Projects</NavLink>
+          <NavLink to="/art">Art</NavLink>
           <NavLink to="/about">About</NavLink>
           {/* 语言切换按钮 */}
           <span className="lang-switcher">
