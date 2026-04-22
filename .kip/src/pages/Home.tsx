@@ -62,6 +62,28 @@ function Home() {
     setTimeout(() => setCopied(false), 2000)
   }
 
+  // 原生事件监听器处理图片点击放大
+  useEffect(() => {
+    const handleImageClick = (e: Event) => {
+      const target = e.currentTarget as HTMLElement;
+      const img = target.querySelector('img');
+      if (img) {
+        setLightboxImage(img.src);
+      }
+    };
+
+    const items = document.querySelectorAll('.gallery-item');
+    items.forEach(item => {
+      item.addEventListener('click', handleImageClick);
+    });
+
+    return () => {
+      items.forEach(item => {
+        item.removeEventListener('click', handleImageClick);
+      });
+    };
+  }, [galleryItems]);
+
   return (
     <div className="home">
       <header className="profile">
@@ -146,7 +168,6 @@ function Home() {
             <div 
               key={item.id} 
               className="gallery-item"
-              onClick={() => setLightboxImage(`${baseUrl}${item.image}`)}
             >
               <img src={`${baseUrl}${item.image}`} alt={item.title} />
               <h3>{item.title}</h3>
