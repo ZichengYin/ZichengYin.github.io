@@ -17,10 +17,9 @@ image: images/firesong-cover.jpg
 
 ## Related Links
 
-- [GitHub Repository](https://github.com/...)
+- [GitHub Repository](https://github.com/ZichengYin/Firesong)
 - [Demo Video](https://youtu.be/...)
-- [Play Online](https://...)
-- [Project Documentation](https://...)
+- [Play Online](https://zichengyin.github.io/Firesong/)
 
 ## Tech Stack
 
