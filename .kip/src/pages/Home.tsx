@@ -63,6 +63,17 @@ function Home() {
     setTimeout(() => setCopied(false), 2000)
   }
 
+  const renderBio = (bio?: string) => {
+    if (!bio) return null
+    const lines = bio.split('\n')
+    return lines.map((line, index) => (
+      <span key={`bio-line-${index}`}>
+        {line}
+        {index < lines.length - 1 && <br />}
+      </span>
+    ))
+  }
+
   // 原生事件监听器处理图片点击放大
   useEffect(() => {
     const handleImageClick = (e: Event) => {
@@ -92,7 +103,7 @@ function Home() {
           <img src={`${baseUrl}${siteConfig.avatar}`} alt={siteConfig.name} />
         </div>
         <h1 className="name notranslate">{siteConfig.name}</h1>
-        <p className="bio">{siteConfig.bio}</p>
+        <p className="bio">{renderBio(siteConfig.bio)}</p>
         {siteConfig.profileHtml && (
           <div
             className="profile-content"
