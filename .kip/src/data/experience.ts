@@ -4,9 +4,9 @@ export interface ExperienceItem {
 }
 
 export const experienceItems: ExperienceItem[] = [
- {
+{
   title: 'Shanghai Youth Academy of Science and Technology',
-  body: 'Secretary-General of the 3rd Council',
+  body: 'Secretary-General of the 3rd Council. Presided over all council meetings. Organized 4 city-level large-scale science and technology events during tenure.',
 },
  {
   title: 'Shanghai Zhiduo Interactive Entertainment — Sound Designer',
@@ -50,7 +50,7 @@ export const experienceItems: ExperienceItem[] = [
 },
 {
   title: 'Shanghai Recording Engineers Association',
-  body: 'Member',
+  body: 'Member. Participated in multiple recording sessions across diverse genres, including Chinese folk orchestras, modern bands, and voice-over artists. Also involved in live performance sound reinforcement.',
 },
 {
   title: 'Theater & Acting',
