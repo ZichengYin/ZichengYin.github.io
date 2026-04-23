@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { projects } from '../data/projects'
+import { experienceItems } from '../data/experience'
 import { galleryItems } from '../data/gallery'
 import { siteConfig } from '../data/config'
 import './Home.css'
@@ -159,6 +160,18 @@ function Home() {
             </li>
           ))}
         </ul>
+      </section>
+
+      <section className="experience-section">
+        <h2>Experience</h2>
+        <div className="experience-list">
+          {experienceItems.map(item => (
+            <article key={item.title} className="experience-item">
+              <h3>{item.title}</h3>
+              <p>{item.body}</p>
+            </article>
+          ))}
+        </div>
       </section>
 
       <section className="gallery-section">
