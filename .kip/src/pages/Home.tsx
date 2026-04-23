@@ -28,10 +28,10 @@ function Home() {
             `${apiUrl}/websites/${umami.website_id}/stats?startAt=${startAt}&endAt=${now}`,
             {
               headers: {
-                'Accept': 'application/json',
-                'Authorization': `Bearer ${umami.api_token}`,
-                'x-umami-api-key': umami.api_token
-              }
+                Accept: 'application/json',
+                Authorization: `Bearer ${umami.api_token}`,
+                'x-umami-api-key': umami.api_token,
+              },
             }
           )
 
@@ -39,9 +39,8 @@ function Home() {
             const data = await response.json()
             console.log('Umami response:', data)
             // Get pageviews count
-            const views = typeof data.pageviews === 'number'
-              ? data.pageviews
-              : (data.pageviews?.value || 0)
+            const views =
+              typeof data.pageviews === 'number' ? data.pageviews : (data.pageviews?.value || 0)
             setVisitorCount(views)
           } else {
             console.log('Umami API error:', response.status, await response.text())
@@ -74,28 +73,6 @@ function Home() {
     ))
   }
 
-  // 原生事件监听器处理图片点击放大
-  useEffect(() => {
-    const handleImageClick = (e: Event) => {
-      const target = e.currentTarget as HTMLElement;
-      const img = target.querySelector('img');
-      if (img) {
-        setLightboxImage(img.src);
-      }
-    };
-
-    const items = document.querySelectorAll('.gallery-item');
-    items.forEach(item => {
-      item.addEventListener('click', handleImageClick);
-    });
-
-    return () => {
-      items.forEach(item => {
-        item.removeEventListener('click', handleImageClick);
-      });
-    };
-  }, [galleryItems]);
-
   return (
     <div className="home">
       <header className="profile">
@@ -105,10 +82,7 @@ function Home() {
         <h1 className="name notranslate">{siteConfig.name}</h1>
         <p className="bio">{renderBio(siteConfig.bio)}</p>
         {siteConfig.profileHtml && (
-          <div
-            className="profile-content"
-            dangerouslySetInnerHTML={{ __html: siteConfig.profileHtml }}
-          />
+          <div className="profile-content" dangerouslySetInnerHTML={{ __html: siteConfig.profileHtml }} />
         )}
         {siteConfig.social && (
           <div className="social-links">
@@ -119,23 +93,14 @@ function Home() {
 
               if (isEmail) {
                 return (
-                  <button
-                    key={key}
-                    className="social-btn"
-                    onClick={() => copyEmail(url)}
-                  >
+                  <button key={key} className="social-btn" onClick={() => copyEmail(url)}>
                     {copied ? 'Copied!' : label}
                   </button>
                 )
               }
 
               return (
-                <a
-                  key={key}
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a key={key} href={url} target="_blank" rel="noopener noreferrer">
                   {label}
                 </a>
               )
@@ -166,7 +131,7 @@ function Home() {
                 )}
               </div>
               <Link to={`/projects/${project.id}`} className="project-link">
-                View →
+                View ��
               </Link>
             </li>
           ))}
@@ -187,12 +152,15 @@ function Home() {
 
       <section className="gallery-section">
         <h2>Gallery</h2>
+        <p className="gallery-intro">
+         As a non-art major, I use drawing as a way to think and communicate. This gallery collects some of my original and fan art creations. While my techniques are still evolving, several of my works have reached 20,000+ recommendations and 3,000+ saves on the platform, with a total engagement of 24,500+. I have also participated in three public art exhibitions. More importantly, these works have led to multiple paid commission opportunities — a strong proof of their resonance with the audience.
+        </p>
         <div className="gallery-grid">
           {galleryItems.map(item => (
-            <div 
-              key={item.id} 
+            <div
+              key={item.id}
               className="gallery-item"
-              onClick={() => window.open(`${baseUrl}${item.image}`, '_blank')}
+              onClick={() => setLightboxImage(`${baseUrl}${item.image}`)}
             >
               <img src={`${baseUrl}${item.image}`} alt={item.title} />
               <h3>{item.title}</h3>
@@ -202,7 +170,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Lightbox 放大效果 */}
       {lightboxImage && (
         <div className="lightbox" onClick={() => setLightboxImage(null)}>
           <span className="close">&times;</span>
@@ -211,9 +178,7 @@ function Home() {
       )}
 
       <footer className="footer">
-        {visitorCount !== null && (
-          <p className="visitor-count">Total visits: {visitorCount}</p>
-        )}
+        {visitorCount !== null && <p className="visitor-count">Total visits: {visitorCount}</p>}
         <p>&copy; {new Date().getFullYear()} {siteConfig.name}</p>
         <p className="powered-by">
           Powered by <a href="https://github.com/kk0x03/kip" target="_blank" rel="noopener noreferrer">Kip</a>

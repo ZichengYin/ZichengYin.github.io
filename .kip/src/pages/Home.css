@@ -291,6 +291,13 @@
   border-bottom: 2px solid var(--primary-color);
 }
 
+.gallery-intro {
+  margin: 0 0 1rem 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  text-align: left;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

@@ -1,8 +1,80 @@
 export const galleryItems = [
   {
     id: 1,
-    title: "Artwork 1",
+    title: "Performance Data",
     image: "images/gallery/art1.jpg",
-    description: "My first artwork",
+    description: "My primary platform for publishing my works. Personal page: https://senai050208.lofter.com",
+  },
+  {
+    id: 2,
+    title: "Artwork 01",
+    image: "images/gallery/art2.jpg",
+    description: "Original character.",
+  },
+  {
+    id: 3,
+    title: "Artwork 02",
+    image: "images/gallery/art3.jpg",
+    description: "Fan art of Persona 5 Royal. This piece has received over 1,000 likes across all platforms.",
+  },
+  {
+    id: 4,
+    title: "Artwork 03",
+    image: "images/gallery/art4.jpg",
+    description: "Original character. This piece has received over 1,000 likes across all platforms.",
+  },
+  {
+    id: 5,
+    title: "Artwork 04",
+    image: "images/gallery/art5.jpg",
+    description: "Fan art of Hollow Knight Silksong.",
+  },
+  {
+    id: 6,
+    title: "Artwork 05",
+    image: "images/gallery/art6.jpg",
+    description: "Fan art of Hazbin Hotel. This piece has received over 1,000 likes across all platforms.",
+  },
+  {
+    id: 7,
+    title: "Artwork 06",
+    image: "images/gallery/art7.jpg",
+    description: "Fan art of Hazbin Hotel. This piece has received over 1,000 likes across all platforms.",
+  },
+  {
+    id: 8,
+    title: "Artwork 07",
+    image: "images/gallery/art8.jpg",
+    description: "Original character.",
+  },
+  {
+    id: 9,
+    title: "Artwork 08",
+    image: "images/gallery/art9.jpg",
+    description: "Ace of Diamond fan art. This piece has received over 1,000 likes across all platforms.",
+  },
+  {
+    id: 10,
+    title: "Artwork 9",
+    image: "images/gallery/art10.jpg",
+    description: "Ace of Diamond fan art.",
+  },
+  {
+    id: 11,
+    title: "Artwork 10",
+    image: "images/gallery/art11.jpg",
+    description: "Fan art of Chainsaw Man.",
+  },
+  {
+    id: 12,
+    title: "Artwork 11",
+    image: "images/gallery/art12.jpg",
+    description: "Fan art of Arknights.",
+  },
+  {
+    id: 13,
+    title: "Artwork 12",
+    image: "images/gallery/art13.jpg",
+    description: "Commissioned works from my early freelance period. This piece has received over 1,000 likes across all platforms.",
   },
 ]
