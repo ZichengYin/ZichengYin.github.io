@@ -7,7 +7,7 @@ import { siteConfig } from '../data/config'
 import './Home.css'
 
 const baseUrl = import.meta.env.BASE_URL
-const experienceImages = ['images/c1.jpg', 'images/c2.jpg', 'images/12.jpg']
+const experienceImages = ['images/c1.jpg', 'images/c2.jpg', 'images/c3.jpg']
 
 function Home() {
   const [copied, setCopied] = useState(false)
