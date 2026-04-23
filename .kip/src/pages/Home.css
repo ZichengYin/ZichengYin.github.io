@@ -212,6 +212,22 @@
   line-height: 1.7;
 }
 
+.experience-images {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.experience-images img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+}
+
 /* Footer */
 .footer {
   margin-top: 4rem;
@@ -276,6 +292,14 @@
 
   .project-link {
     align-self: flex-start;
+  }
+
+  .experience-images {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-images img {
+    height: 120px;
   }
 }
 

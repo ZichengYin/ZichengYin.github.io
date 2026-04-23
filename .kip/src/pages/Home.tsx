@@ -7,6 +7,7 @@ import { siteConfig } from '../data/config'
 import './Home.css'
 
 const baseUrl = import.meta.env.BASE_URL
+const experienceImages = ['images/c1.jpg', 'images/c2.jpg', 'images/12.jpg']
 
 function Home() {
   const [copied, setCopied] = useState(false)
@@ -148,12 +149,17 @@ function Home() {
             </article>
           ))}
         </div>
+        <div className="experience-images" aria-label="Experience highlights">
+          {experienceImages.map((imagePath, index) => (
+            <img key={imagePath} src={`${baseUrl}${imagePath}`} alt={`Experience photo ${index + 1}`} />
+          ))}
+        </div>
       </section>
 
       <section className="gallery-section">
         <h2>Gallery</h2>
         <p className="gallery-intro">
-         As a non-art major, I use drawing as a way to think and communicate. This gallery collects some of my original and fan art creations. While my techniques are still evolving, several of my works have reached 20,000+ recommendations and 3,000+ saves on the platform, with a total engagement of 24,500+. I have also participated in three public art exhibitions. More importantly, these works have led to multiple paid commission opportunities — a strong proof of their resonance with the audience.
+         As a non-art major, I use drawing as a way to think and communicate. This gallery collects some of my original and fan art creations. While my techniques are still evolving, several of my works have reached 20,000+ recommendations and 3,000+ saves on the platform, with a total engagement of 24,500+. I have also participated in three public art exhibitions and contributed to UI design and production for three non-personal projects. More importantly, these works have led to multiple paid commission opportunities — a strong proof of their resonance with the audience.
         </p>
         <div className="gallery-grid">
           {galleryItems.map(item => (

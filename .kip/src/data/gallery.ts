@@ -77,4 +77,10 @@ export const galleryItems = [
     image: "images/gallery/art13.jpg",
     description: "Commissioned works from my early freelance period. This piece has received over 1,000 likes across all platforms.",
   },
+   {
+    id: 14,
+    title: "UI Design",
+    image: "images/gallery/art14.jpg",
+    description: "	UI design for a patented software project · Virtual Instrument Museum.",
+  },
 ]
