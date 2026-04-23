@@ -14,6 +14,7 @@ image: images/firesong-cover.jpg
 ## Project Introduction
 
 "Firesong" is a 2D side-scrolling shooter game developed with the Unity engine, based on the open-source project JetFire for secondary development and functional expansion. The game features layered interactive sound design as its core characteristic, combined with rich visual and auditory experiences to create an immersive shooting atmosphere.
+
 Controls: Players can jump using the S key or Spacebar, and attack using the K key or Left Mouse Button.
 
 ## Related Links
