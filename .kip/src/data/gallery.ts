@@ -42,12 +42,6 @@ export const galleryItems = [
     description: "Fan art of Hazbin Hotel. This piece has received over 1,000 likes across all platforms.",
   },
   {
-    id: 8,
-    title: "Artwork 07",
-    image: "images/gallery/art8.jpg",
-    description: "Original character.",
-  },
-  {
     id: 9,
     title: "Artwork 08",
     image: "images/gallery/art9.jpg",
@@ -58,12 +52,6 @@ export const galleryItems = [
     title: "Artwork 9",
     image: "images/gallery/art10.jpg",
     description: "Ace of Diamond fan art.",
-  },
-  {
-    id: 11,
-    title: "Artwork 10",
-    image: "images/gallery/art11.jpg",
-    description: "Fan art of Chainsaw Man.",
   },
   {
     id: 12,
