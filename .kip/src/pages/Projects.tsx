@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import { projects } from '../data/projects'
 import './Projects.css'
 
@@ -21,7 +21,7 @@ function Projects() {
               <h2 className="project-title">{project.title}</h2>
               <p className="project-description">{project.description}</p>
               <Link to={`/projects/${project.id}`} className="project-link">
-                View Details →
+                {'View Details \u2192'}
               </Link>
             </div>
           </article>

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { projects } from '../data/projects'
 import { experienceItems } from '../data/experience'
@@ -132,7 +132,7 @@ function Home() {
                 )}
               </div>
               <Link to={`/projects/${project.id}`} className="project-link">
-                View ��
+                {'View \u2192'}
               </Link>
             </li>
           ))}
@@ -159,7 +159,7 @@ function Home() {
       <section className="gallery-section">
         <h2>Gallery</h2>
         <p className="gallery-intro">
-         As a non-art major, I use drawing as a way to think and communicate. This gallery collects some of my original and fan art creations. While my techniques are still evolving, several of my works have reached 20,000+ recommendations and 3,000+ saves on the platform, with a total engagement of 24,500+. I have also participated in three public art exhibitions and contributed to UI design and production for three non-personal projects. More importantly, these works have led to multiple paid commission opportunities — a strong proof of their resonance with the audience.
+          As a non-art major, I use drawing as a way to think and communicate. This gallery collects some of my original and fan art creations. While my techniques are still evolving, several of my works have reached 20,000+ recommendations and 3,000+ saves on the platform, with a total engagement of 24,500+. I have also participated in three public art exhibitions and contributed to UI design and production for three non-personal projects. More importantly, these works have led to multiple paid commission opportunities - a strong proof of their resonance with the audience.
         </p>
         <div className="gallery-grid">
           {galleryItems.map(item => (

@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom'
+﻿import { useParams, Link } from 'react-router-dom'
 import { getProjectById } from '../data/projects'
 import './ProjectDetail.css'
 
@@ -14,7 +14,7 @@ function ProjectDetail() {
         <div className="not-found">
           <h1>Project Not Found</h1>
           <p>The project you're looking for doesn't exist.</p>
-          <Link to="/" className="back-link">← Back to Home</Link>
+          <Link to="/" className="back-link">{'\u2190 Back to Home'}</Link>
         </div>
       </div>
     )
@@ -22,7 +22,7 @@ function ProjectDetail() {
 
   return (
     <article className="project-detail">
-      <Link to="/" className="back-link">← Back to Home</Link>
+      <Link to="/" className="back-link">{'\u2190 Back to Home'}</Link>
 
       {project.image && (
         <div className="project-hero">
@@ -43,7 +43,7 @@ function ProjectDetail() {
               rel="noopener noreferrer"
               className="project-external-link"
             >
-              View Project →
+              {'View Project \u2192'}
             </a>
           )}
           {project.source === 'notion' && (
