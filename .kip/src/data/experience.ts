@@ -14,7 +14,7 @@ export const experienceItems: ExperienceItem[] = [
 },
 {
   title: 'Tencent — Audio Support Intern',
-  body: 'Aug 2025 – Oct 2025. Provided audio technical support and sound design testing for "Ultimate Showdown". Used TTS for voice asset production and debugging. Assisted with audio resource standardization and issue troubleshooting. Improved team asset retrieval efficiency.',
+  body: 'Aug 2025 – Oct 2025. Provided audio technical support and sound design testing for "The Finals". Used TTS for voice asset production and debugging. Assisted with audio resource standardization and issue troubleshooting. Improved team asset retrieval efficiency.',
 },
 {
   title: 'Shanghai Lingshi Information Technology — Music Curriculum Intern',
@@ -30,7 +30,7 @@ export const experienceItems: ExperienceItem[] = [
 },
 {
   title: 'Cognitive Rehabilitation Training System',
-  body: 'Project Lead. Designed the complete Q&A system. Led the project to be selected for the "Yincai Zhufei" Program. Won Third Prize in the 19th "Challenge Cup" Shanghai University Student Entrepreneurship Competition (School Level).',
+  body: 'Project Lead. Designed the complete Q&A system. Led the project to be selected for the "Sound Talent Empowerment Program" Program. Won Third Prize in the 19th "Challenge Cup" Shanghai University Student Entrepreneurship Competition (School Level).',
 },
 {
   title: 'Virtual Instrument Museum',
@@ -54,6 +54,6 @@ export const experienceItems: ExperienceItem[] = [
 },
 {
   title: 'Theater & Acting',
-  body: 'High School Drama Club President. Performed in multiple student short films during university, including "Half" and "Future Regret".',
+  body: 'High School Drama Club President. Performed in multiple student short films during university, including "半" and "未来的未来".',
 },
 ]
