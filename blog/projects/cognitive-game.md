@@ -12,7 +12,7 @@ image: images/cognitive-cover.jpg?raw=true
 
 ## Project Introduction
 
-This project is a rehabilitation training quiz system for children with cognitive disorders (e.g., cerebral palsy, autism). It was selected for the “Music Talent Flying Plan” and originated from an on-site investigation at the Rehabilitation Department of Shanghai Children’s Hospital in November 2023. The system adopts a multi-sensory collaborative training strategy, converting traditional visual questions into audio-paired visual selections, and further integrates non-invasive BCI and eye-tracking technologies to enable real-time attention and relaxation level monitoring, as well as convenient eye-movement interaction. Currently, version 1.0 of the quiz system has been developed and preliminarily tested at Shanghai Children’s Hospital.
+This project is a rehabilitation training quiz system for children with cognitive disorders (e.g., cerebral palsy, autism). It was selected for the “Sound Talent Empowerment Program” and originated from an on-site investigation at the Rehabilitation Department of Shanghai Children’s Hospital in November 2023. The system adopts a multi-sensory collaborative training strategy, converting traditional visual questions into audio-paired visual selections, and further integrates non-invasive BCI and eye-tracking technologies to enable real-time attention and relaxation level monitoring, as well as convenient eye-movement interaction. Currently, version 1.0 of the quiz system has been developed and preliminarily tested at Shanghai Children’s Hospital.
 
 ## Related Links
 
