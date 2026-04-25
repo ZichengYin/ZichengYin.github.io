@@ -2,7 +2,7 @@
 name: Zicheng Yin | 殷紫珵
 bio: |
   Music Technology student at Shanghai Conservatory of Music (Class of 2027). 
-  Guitarist & artist. Focused on creative coding, AI, and game production.
+  Guitarist & illustrator. Focused on creative coding, AI, and game production.
 avatar: images/avatar.jpeg
 social:
   github: https://github.com/ZichengYin
