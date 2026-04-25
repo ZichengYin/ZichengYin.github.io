@@ -255,6 +255,52 @@
   line-height: 1.7;
 }
 
+.internship-list {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.internship-card {
+  position: relative;
+  padding: 1.25rem 1.4rem 1.3rem 1.6rem;
+  border-radius: 18px;
+  border: 1px solid color-mix(in srgb, var(--primary-color) 24%, var(--border-color));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--primary-color) 14%, transparent), transparent 42%),
+    color-mix(in srgb, var(--bg-secondary) 38%, var(--card-bg));
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  overflow: hidden;
+}
+
+.internship-card::before {
+  content: '';
+  position: absolute;
+  top: 14px;
+  bottom: 14px;
+  left: 12px;
+  width: 4px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--primary-color), color-mix(in srgb, white 35%, var(--primary-color)));
+}
+
+.internship-card h3 {
+  margin: 0 0 0.65rem;
+  padding-left: 0.55rem;
+  color: var(--text-primary);
+  font-size: 1.06rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.internship-card p {
+  margin: 0;
+  padding-left: 0.55rem;
+  color: color-mix(in srgb, var(--text-secondary) 88%, white 12%);
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
 .honors-list {
   margin: 0;
   padding-left: 1.5rem;
@@ -401,6 +447,7 @@
   }
 
   .text-card,
+  .internship-card,
   .experience-item {
     padding: 1.25rem;
   }

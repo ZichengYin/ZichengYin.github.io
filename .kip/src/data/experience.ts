@@ -25,6 +25,10 @@ export const experienceItems: ExperienceItem[] = [
   body: 'Module Lead. Independently managed the full documentation process for the music visualization module, including parameter review, standard setting, and final delivery. Ensured stable module presentation at the demo booth.',
 },
 {
+  title: 'Sci-Fi Music Technology Exploration Tour (Jinan Station) — Commercial Presentation Host',
+  body: 'Served as the host and presenter for the Jinan stop. Showcased multiple music technology projects from the Shanghai Conservatory of Music to the public.',
+},
+{
   title: 'Secondary School Music Course — Teaching Assistant',
   body: 'Teaching Assistant for Music Creation & Arrangement at Nanyang Model High School and Smart Piano Course at Xuhui High School. Assisted with instruction, student guidance, course coordination, and liaison.',
 },

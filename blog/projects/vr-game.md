@@ -12,7 +12,7 @@ image: images/vr-game-cover.jpg
 
 ## Project Introduction
 
-This project is a virtual musical instrument performance system developed for the Virtual Musical Instrument Museum project of the MuseBit team. It uses VR glasses (Oculus Meta Quest 3) to allow users to play the ten-tone cloud gong, a traditional Chinese percussion instrument, in an immersive 3D scene. The system addresses the physical wear and pitch instability of real cloud gongs by providing a perfect digital replica.
+'This project is a virtual musical instrument performance system developed for the Virtual Musical Instrument Museum project of the MuseBit team. It uses VR glasses (Oculus Meta Quest 3) to allow users to play the ten-tone cloud gong, a traditional Chinese percussion instrument, in an immersive 3D scene. The system addresses the physical wear and pitch instability of real cloud gongs by providing a perfect digital replica. As a representative interactive experience of the MuseBit Virtual Musical Instrument Museum, it was exhibited at the "UK-China Youth Digital Creation Exhibition (London)," an official partner event of the 2024 London Design Festival held at Royal Mint Court, where it received widespread attention and unanimous praise.',
 
 ## Related Links
 

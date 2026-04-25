@@ -155,9 +155,9 @@ function Home() {
 
       <section id="internships" className="text-section">
         <h2>Internships</h2>
-        <div className="text-card-list">
+        <div className="internship-list">
           {internshipItems.map(item => (
-            <article key={item.title} className="text-card">
+            <article key={item.title} className="internship-card">
               <h3>{item.title}</h3>
               <p>{item.body}</p>
             </article>
