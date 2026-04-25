@@ -86,10 +86,6 @@ function Home() {
         <a href="#gallery">Gallery</a>
       </nav>
 
-      <p className="home-intro">
-        Welcome to Ray&apos;s personal website. Here you can explore my works, projects and internship experiences.
-      </p>
-
       <header className="profile">
         <div className="avatar">
           <img src={`${baseUrl}${siteConfig.avatar}`} alt={siteConfig.name} />
