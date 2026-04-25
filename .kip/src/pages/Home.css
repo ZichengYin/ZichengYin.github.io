@@ -4,6 +4,44 @@
   padding: 3rem 1.5rem;
 }
 
+.home-nav {
+  position: sticky;
+  top: 1rem;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--card-bg) 88%, transparent);
+  backdrop-filter: blur(10px);
+}
+
+.home-nav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+}
+
+.home-nav a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+
+.home-intro {
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
 /* Profile */
 .profile {
   text-align: center;
@@ -80,6 +118,7 @@
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--primary-color);
+  scroll-margin-top: 6rem;
 }
 
 .project-list {
@@ -186,6 +225,7 @@
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--primary-color);
+  scroll-margin-top: 6rem;
 }
 
 .experience-list {
@@ -311,6 +351,7 @@
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--primary-color);
+  scroll-margin-top: 6rem;
 }
 
 .gallery-intro {

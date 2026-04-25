@@ -76,6 +76,17 @@ function Home() {
 
   return (
     <div className="home">
+      <nav className="home-nav" aria-label="Section navigation">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#gallery">Gallery</a>
+      </nav>
+
+      <p className="home-intro">
+        Hi, welcome to 殷紫珵&apos; personal website, you can see my works, projects,
+        and internship experiences here.
+      </p>
+
       <header className="profile">
         <div className="avatar">
           <img src={`${baseUrl}${siteConfig.avatar}`} alt={siteConfig.name} />
@@ -110,7 +121,7 @@ function Home() {
         )}
       </header>
 
-      <section className="projects-section">
+      <section id="projects" className="projects-section">
         <h2>Projects</h2>
         <ul className="project-list">
           {projects.map(project => (
@@ -139,7 +150,7 @@ function Home() {
         </ul>
       </section>
 
-      <section className="experience-section">
+      <section id="experience" className="experience-section">
         <h2>Experience</h2>
         <div className="experience-list">
           {experienceItems.map(item => (
@@ -156,7 +167,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="gallery-section">
+      <section id="gallery" className="gallery-section">
         <h2>Gallery</h2>
         <p className="gallery-intro">
           As a non-art major, I use drawing as a way to think and communicate. This gallery collects some of my original and fan art creations. While my techniques are still evolving, several of my works have reached 20,000+ recommendations and 3,000+ saves on the platform, with a total engagement of 24,500+. I have also participated in three public art exhibitions and contributed to UI design and production for three non-personal projects. More importantly, these works have led to multiple paid commission opportunities - a strong proof of their resonance with the audience.
