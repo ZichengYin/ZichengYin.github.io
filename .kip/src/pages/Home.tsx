@@ -220,7 +220,7 @@ function Home() {
 
       <footer className="footer">
         {visitorCount !== null && <p className="visitor-count">Total visits: {visitorCount}</p>}
-        <p>&copy; {new Date().getFullYear()} {siteConfig.name} | 殷紫珵</p>
+        <p>&copy; {new Date().getFullYear()} {siteConfig.name}</p>
         <p className="powered-by">
           Powered by <a href="https://github.com/kk0x03/kip" target="_blank" rel="noopener noreferrer">Kip</a>
         </p>

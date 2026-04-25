@@ -31,14 +31,20 @@ export const galleryItems = [
   },
   {
     id: 6,
-    title: "Artwork 05",
-    image: "images/gallery/art6.jpg",
-    description: "Fan art of Hazbin Hotel. This piece has received over 1,000 likes across all platforms.",
+    title: "UI Design",
+    image: "images/gallery/art14.jpg",
+    description: "	UI design for a patented software project · Virtual Instrument Museum.",
   },
   {
     id: 7,
-    title: "Artwork 06",
+    title: "Artwork 05",
     image: "images/gallery/art7.jpg",
+    description: "Fan art of Hazbin Hotel. This piece has received over 1,000 likes across all platforms.",
+  },
+   {
+    id: 8,
+    title: "Artwork 06",
+    image: "images/gallery/art6.jpg",
     description: "Fan art of Hazbin Hotel. This piece has received over 1,000 likes across all platforms.",
   },
   {
@@ -64,11 +70,5 @@ export const galleryItems = [
     title: "Artwork 12",
     image: "images/gallery/art13.jpg",
     description: "Commissioned works from my early freelance period. This piece has received over 1,000 likes across all platforms.",
-  },
-   {
-    id: 14,
-    title: "UI Design",
-    image: "images/gallery/art14.jpg",
-    description: "	UI design for a patented software project · Virtual Instrument Museum.",
   },
 ]
