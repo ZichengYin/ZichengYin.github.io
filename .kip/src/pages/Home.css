@@ -1,31 +1,33 @@
 .home {
   max-width: 900px;
   margin: 0 auto;
-  padding: 3rem 1.5rem;
+  padding: 0 1.5rem 3rem;
 }
 
 .home-nav {
   position: sticky;
-  top: 1rem;
+  top: 0;
   z-index: 20;
   display: flex;
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
-  margin-bottom: 1rem;
-  padding: 0.45rem 0.7rem;
-  border: 1px solid color-mix(in srgb, var(--border-color) 72%, transparent);
+  width: max-content;
+  max-width: 100%;
+  margin: 0 auto 3.25rem;
+  padding: 0.24rem 0.55rem;
+  border: 1px solid color-mix(in srgb, var(--border-color) 45%, transparent);
   border-radius: 999px;
-  background: color-mix(in srgb, var(--card-bg) 88%, transparent);
-  backdrop-filter: blur(10px);
+  background: color-mix(in srgb, var(--card-bg) 58%, transparent);
+  backdrop-filter: blur(8px);
 }
 
 .home-nav a {
   color: var(--text-secondary);
   text-decoration: none;
-  padding: 0.28rem 0.65rem;
+  padding: 0.18rem 0.55rem;
   border-radius: 999px;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
   font-weight: 400;
   transition: all 0.2s ease;
 }
@@ -416,7 +418,7 @@
 
 @media (max-width: 600px) {
   .home {
-    padding: 2rem 1rem;
+    padding: 0 1rem 2rem;
   }
 
   .name {
