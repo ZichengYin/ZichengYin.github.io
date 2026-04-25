@@ -1,7 +1,9 @@
 ﻿import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { projects } from '../data/projects'
+import { internshipItems } from '../data/internships'
 import { experienceItems } from '../data/experience'
+import { honorItems } from '../data/honors'
 import { galleryItems } from '../data/gallery'
 import { siteConfig } from '../data/config'
 import './Home.css'
@@ -78,13 +80,14 @@ function Home() {
     <div className="home">
       <nav className="home-nav" aria-label="Section navigation">
         <a href="#projects">Projects</a>
+        <a href="#internships">Internships</a>
         <a href="#experience">Experience</a>
+        <a href="#honors">Honors</a>
         <a href="#gallery">Gallery</a>
       </nav>
 
       <p className="home-intro">
-        Welcome to 殷紫珵&apos; personal website, you can see my works, projects,
-        and internship experiences here.
+        Welcome to 殷紫珵&apos;s personal website. Here you can explore my works, projects and internship experiences.
       </p>
 
       <header className="profile">
@@ -150,6 +153,18 @@ function Home() {
         </ul>
       </section>
 
+      <section id="internships" className="text-section">
+        <h2>Internships</h2>
+        <div className="text-card-list">
+          {internshipItems.map(item => (
+            <article key={item.title} className="text-card">
+              <h3>{item.title}</h3>
+              <p>{item.body}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <section id="experience" className="experience-section">
         <h2>Experience</h2>
         <div className="experience-list">
@@ -165,6 +180,15 @@ function Home() {
             <img key={imagePath} src={`${baseUrl}${imagePath}`} alt={`Experience photo ${index + 1}`} />
           ))}
         </div>
+      </section>
+
+      <section id="honors" className="text-section">
+        <h2>Honors &amp; Awards</h2>
+        <ol className="honors-list">
+          {honorItems.map(item => (
+            <li key={item} className="honors-item">{item}</li>
+          ))}
+        </ol>
       </section>
 
       <section id="gallery" className="gallery-section">
@@ -196,7 +220,7 @@ function Home() {
 
       <footer className="footer">
         {visitorCount !== null && <p className="visitor-count">Total visits: {visitorCount}</p>}
-        <p>&copy; {new Date().getFullYear()} {siteConfig.name}</p>
+        <p>&copy; {new Date().getFullYear()} {siteConfig.name} | 殷紫珵</p>
         <p className="powered-by">
           Powered by <a href="https://github.com/kk0x03/kip" target="_blank" rel="noopener noreferrer">Kip</a>
         </p>

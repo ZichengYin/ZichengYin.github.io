@@ -218,6 +218,68 @@
   transform: scale(1.02);
 }
 
+/* Shared text sections */
+.text-section {
+  margin-top: 3rem;
+}
+
+.text-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary-color);
+  scroll-margin-top: 6rem;
+}
+
+.text-card-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.text-card {
+  padding: 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.text-card h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.2rem;
+}
+
+.text-card p {
+  margin: 0;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.honors-list {
+  margin: 0;
+  padding-left: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.honors-item {
+  margin-bottom: 0.9rem;
+  padding-left: 0.2rem;
+  line-height: 1.8;
+}
+
+.honors-item:last-child {
+  margin-bottom: 0;
+}
+
+.honors-text {
+  display: inline;
+}
+
+.honors-text strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
 /* Experience */
 .experience-section {
   margin-top: 3rem;
@@ -336,6 +398,15 @@
 
   .project-link {
     align-self: flex-start;
+  }
+
+  .text-card,
+  .experience-item {
+    padding: 1.25rem;
+  }
+
+  .honors-list {
+    padding-left: 1.25rem;
   }
 
   .experience-images {

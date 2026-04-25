@@ -3,7 +3,7 @@
 import type { SiteConfig } from '../types'
 
 export const siteConfig: SiteConfig = {
-  "title": "Zicheng Yin",
+  "title": "Zicheng Yin | 殷紫珵's Personal Website",
   "root": "/",
   "theme": "ocean",
   "layout": {
@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
     "branch": "main",
     "message": "Deploy from Kip"
   },
-  "name": "Zicheng Yin | Ray Yin",
+  "name": "Zicheng Yin | 殷紫珵",
   "bio": "Music Technology student at Shanghai Conservatory of Music (Class of 2027). \nGuitarist & artist. Focused on creative coding, AI, and game production.\n",
   "avatar": "images/avatar.jpeg",
   "social": {
