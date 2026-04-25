@@ -16,9 +16,8 @@ This project is a virtual musical instrument performance system developed for th
 
 ## Related Links
 
-- [GitHub Repository](https://github.com/...)
+- [Download Project Files](https://drive.google.com/file/d/1FBPGbyza_UyvXgfcJL651bFULmGuyHLf/view?usp=drive_link)
 - [Demo Video](https://youtu.be/...)
-- [Play Online](https://...)
 
 ## Tech Stack
 
@@ -31,7 +30,7 @@ This project is a virtual musical instrument performance system developed for th
 
 ## My Role
 
-- Project leader and sole developer
+- Project leader and main developer
 - 3D model inspection and mallet modeling (3ds Max)
 - Audio recording coordination and editing (Reaper)
 - Unity scripting (collision detection, handle adaptation, movement control)
