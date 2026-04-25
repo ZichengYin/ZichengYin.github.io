@@ -83,7 +83,7 @@ function Home() {
       </nav>
 
       <p className="home-intro">
-        Hi, welcome to 殷紫珵&apos; personal website, you can see my works, projects,
+        Welcome to 殷紫珵&apos; personal website, you can see my works, projects,
         and internship experiences here.
       </p>
 
