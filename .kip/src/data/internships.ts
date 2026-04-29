@@ -5,7 +5,7 @@ export interface InternshipItem {
 
 export const internshipItems: InternshipItem[] = [
 {
-  title: 'Shanghai Zhiduo Interactive Entertainment — Sound Designer',
+  title: 'Shanghai Zhiduo Interactive Entertainment Technology — Sound Designer',
   body: 'Feb 2026 – Apr 2026. Sole audio position. Oversaw sound and music design for all projects across headquarters and branches. Independently handled audio editing and built the company sound library, significantly improving team efficiency.',
 },
 {
