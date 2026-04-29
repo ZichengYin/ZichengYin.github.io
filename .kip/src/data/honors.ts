@@ -9,5 +9,5 @@ export const honorItems: string[] = [
 '1st Shanghai Youth Creativity Competition - Henkel Sustainable Creativity Star.',
 'Xuhui District "Shangzhong Cup" Youth Science and Technology Innovation Forum - District First Prize (2022).',
 'Xuhui District "Shangzhong Cup" Youth Science and Technology Innovation Forum - District First Prize (2020).',
-'Other (Prior to High School): 13 in science experiments (including first prize at Shanghai International Youth Science Expo), 10 in painting and photography (including third prize in Xinmei Cup International Art Competition), 5 in writing (including publication in Chinese Language Newspaper), hosted 3 major events (including a district-level event for the 100th anniversary of the May Fourth Movement), and earned 3 certificates in instruments/sports (including Level 10 Guzheng).',
+'Other (Prior to High School): 13 in science experiments (including first prize at Shanghai International Youth Science Expo), 10 in painting and photography (including third prize in Xinmei Cup International Art Competition), 5 in writing , hosted 3 major events, and earned 3 certificates in instruments/sports (including Level 10 Guzheng).',
 ]
