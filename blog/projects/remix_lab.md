@@ -44,5 +44,5 @@ This project is a browser-based audio remixing workstation that allows users to 
 
 ## Related document
 
-- [Production Report (PDF)](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Production%20Report.pdf)
+- [Production Report (PDF)](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Remix%20Lab%20Development%20Report.pdf)
 
