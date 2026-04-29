@@ -28,20 +28,18 @@ This project is a browser-based audio remixing workstation that allows users to 
 
 ## My Role
 
-- Feature design and implementation
-- UI/UX design 
-- Audio effect chain configuration
-- Background audio overlay system
-- Progress callback and preview mode
+- Project maintainer and feature developer
+- UI/UX design (sunset theme)
+- Audio processing pipeline integration
 
 ## Project Highlights
 
 - 11 preset effects with one-click application
-- Real-time BPM detection and waveform display
-- Random theme generator
-- Custom preset save/load system
-- 10-second preview mode for fast iteration
-- Bilingual UI and sunset gradient theme
+- Bilingual interface
+- 10-second preview mode with progress callback
+- Background audio overlay system (vinyl crackle + ambient)
+- Real-time BPM detection and waveform visualization
+- Custom preset save/load
 
 ## Related document
 
