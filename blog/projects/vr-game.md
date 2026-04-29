@@ -7,6 +7,7 @@ tags:
   - Music Technology
   - Chinese Traditional Instruments
   - Interaction Design
+  - Music Education
 image: images/vr-game-cover.jpg
 ---
 
