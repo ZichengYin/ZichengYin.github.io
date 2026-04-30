@@ -20,6 +20,15 @@ export interface Project {
   content: string
   html: string
   source: string
+  translations?: {
+    zh?: {
+      title?: string
+      description?: string
+      tags?: string[]
+      content?: string
+      html?: string
+    }
+  }
 }
 
 export interface SiteConfig {
@@ -45,6 +54,14 @@ export interface SiteConfig {
   }
   profileContent?: string
   profileHtml?: string
+  translations?: {
+    zh?: {
+      name?: string
+      bio?: string
+      profileContent?: string
+      profileHtml?: string
+    }
+  }
   umami?: {
     website_id?: string
     src?: string

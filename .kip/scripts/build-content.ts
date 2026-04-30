@@ -37,6 +37,14 @@ interface ProfileData {
   }
   content?: string
   html?: string
+  translations?: {
+    zh?: {
+      name?: string
+      bio?: string
+      content?: string
+      html?: string
+    }
+  }
 }
 
 interface Config {
@@ -84,6 +92,15 @@ interface ProjectData {
   content: string
   html: string
   source: string
+  translations?: {
+    zh?: {
+      title?: string
+      description?: string
+      tags?: string[]
+      content?: string
+      html?: string
+    }
+  }
 }
 
 function readConfig(): Config {
@@ -94,8 +111,8 @@ function readConfig(): Config {
   return {}
 }
 
-async function readProfile(): Promise<ProfileData> {
-  const profilePath = path.join(contentRootDir, 'blog', 'profile.md')
+async function readProfile(profileDir = 'blog'): Promise<ProfileData> {
+  const profilePath = path.join(contentRootDir, profileDir, 'profile.md')
   if (!fs.existsSync(profilePath)) {
     return {}
   }
@@ -197,7 +214,30 @@ export function getProjectById(id: string): Project | undefined {
   console.log(`✅ Generated src/data/projects.ts (${published.length} projects, ${projects.length - published.length} drafts)`)
 }
 
-function generateConfigData(config: Config, profile: ProfileData): void {
+function attachProjectTranslations(projects: ProjectData[], translatedProjects: ProjectData[]): ProjectData[] {
+  const translationsById = new Map(translatedProjects.map(project => [project.id, project]))
+
+  return projects.map(project => {
+    const zh = translationsById.get(project.id)
+    if (!zh) return project
+
+    return {
+      ...project,
+      translations: {
+        ...project.translations,
+        zh: {
+          title: zh.title,
+          description: zh.description,
+          tags: zh.tags,
+          content: zh.content,
+          html: zh.html,
+        },
+      },
+    }
+  })
+}
+
+function generateConfigData(config: Config, profile: ProfileData, zhProfile?: ProfileData): void {
   // Profile data takes precedence over _config.yml for personal info
   const safeConfig = {
     ...config,
@@ -206,7 +246,17 @@ function generateConfigData(config: Config, profile: ProfileData): void {
     avatar: profile.avatar || config.avatar,
     social: profile.social || config.social,
     profileContent: profile.content,
-    profileHtml: profile.html
+    profileHtml: profile.html,
+    translations: zhProfile && (zhProfile.name || zhProfile.bio || zhProfile.content || zhProfile.html)
+      ? {
+          zh: {
+            name: zhProfile.name,
+            bio: zhProfile.bio,
+            profileContent: zhProfile.content,
+            profileHtml: zhProfile.html,
+          },
+        }
+      : undefined,
   }
   delete safeConfig.notion
 
@@ -256,7 +306,8 @@ async function main(): Promise<void> {
 
   const config = readConfig()
   const profile = await readProfile()
-  generateConfigData(config, profile)
+  const zhProfile = await readProfile('blog/zh')
+  generateConfigData(config, profile, zhProfile)
 
   const notion = initNotion(config.notion?.api_key)
   if (notion) {
@@ -264,9 +315,10 @@ async function main(): Promise<void> {
   }
 
   const projects = await readMarkdownFiles('blog/projects', notion)
+  const zhProjects = await readMarkdownFiles('blog/zh/projects', notion)
   console.log(`📁 Found ${projects.length} projects`)
 
-  generateProjectsData(projects)
+  generateProjectsData(attachProjectTranslations(projects, zhProjects))
 
   console.log('\n✅ Done!\n')
 }

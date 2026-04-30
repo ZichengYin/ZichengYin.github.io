@@ -31,8 +31,10 @@ function App() {
 
   return (
 <Routes>
-  <Route path="/" element={<Home />} />
-  <Route path="/projects/:projectId" element={<ProjectDetail />} />
+  <Route path="/" element={<Home language="en" />} />
+  <Route path="/zh" element={<Home language="zh" />} />
+  <Route path="/projects/:projectId" element={<ProjectDetail language="en" />} />
+  <Route path="/zh/projects/:projectId" element={<ProjectDetail language="zh" />} />
   <Route path="/art" element={<ArtGallery />} />  {/* ← 添加这一行 */}
 </Routes>
   )

@@ -1,20 +1,48 @@
 ﻿import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { projects } from '../data/projects'
-import { internshipItems } from '../data/internships'
-import { experienceItems } from '../data/experience'
-import { honorItems } from '../data/honors'
-import { galleryItems } from '../data/gallery'
 import { siteConfig } from '../data/config'
+import {
+  type Language,
+  languagePath,
+  localizedExperience,
+  localizedGalleryItems,
+  localizedHonors,
+  localizedInternships,
+  text,
+} from '../data/i18n'
 import './Home.css'
 
 const baseUrl = import.meta.env.BASE_URL
 const experienceImages = ['images/c1.jpg', 'images/c2.jpg', 'images/c3.jpg']
 
-function Home() {
+interface HomeProps {
+  language: Language
+}
+
+function Home({ language }: HomeProps) {
   const [copied, setCopied] = useState(false)
   const [visitorCount, setVisitorCount] = useState<number | null>(null)
   const [lightboxImage, setLightboxImage] = useState<string | null>(null)
+  const t = text[language]
+  const basePath = language === 'zh' ? '/zh' : ''
+  const localizedProfile = language === 'zh' ? siteConfig.translations?.zh : undefined
+  const homeName = localizedProfile?.name || siteConfig.name
+  const homeBio = localizedProfile?.bio || siteConfig.bio
+  const profileHtml = localizedProfile?.profileHtml || siteConfig.profileHtml
+  const currentProjects = projects.map(project => {
+    const zh = language === 'zh' ? project.translations?.zh : undefined
+    return {
+      ...project,
+      title: zh?.title || project.title,
+      description: zh?.description || project.description,
+      tags: zh?.tags || project.tags,
+    }
+  })
+  const currentInternships = localizedInternships[language]
+  const currentExperience = localizedExperience[language]
+  const currentHonors = localizedHonors[language]
+  const currentGalleryItems = localizedGalleryItems[language]
 
   useEffect(() => {
     // Fetch visitor count from Umami API if configured
@@ -79,21 +107,29 @@ function Home() {
   return (
     <div className="home">
       <nav className="home-nav" aria-label="Section navigation">
-        <a href="#projects">Projects</a>
-        <a href="#internships">Internships</a>
-        <a href="#experience">Experience</a>
-        <a href="#honors">Honors</a>
-        <a href="#gallery">Gallery</a>
+        <a href="#projects">{t.nav.projects}</a>
+        <a href="#internships">{t.nav.internships}</a>
+        <a href="#experience">{t.nav.experience}</a>
+        <a href="#honors">{t.nav.honors}</a>
+        <a href="#gallery">{t.nav.gallery}</a>
+        <span className="language-switch" aria-label="Language switcher">
+          <Link className={language === 'en' ? 'active' : undefined} to={languagePath('en', '/')}>
+            {t.actions.english}
+          </Link>
+          <Link className={language === 'zh' ? 'active' : undefined} to={languagePath('zh', '/')}>
+            {t.actions.chinese}
+          </Link>
+        </span>
       </nav>
 
       <header className="profile">
         <div className="avatar">
-          <img src={`${baseUrl}${siteConfig.avatar}`} alt={siteConfig.name} />
+          <img src={`${baseUrl}${siteConfig.avatar}`} alt={homeName} />
         </div>
-        <h1 className="name notranslate">{siteConfig.name}</h1>
-        <p className="bio">{renderBio(siteConfig.bio)}</p>
-        {siteConfig.profileHtml && (
-          <div className="profile-content" dangerouslySetInnerHTML={{ __html: siteConfig.profileHtml }} />
+        <h1 className="name notranslate">{homeName}</h1>
+        <p className="bio">{renderBio(homeBio)}</p>
+        {profileHtml && (
+          <div className="profile-content" dangerouslySetInnerHTML={{ __html: profileHtml }} />
         )}
         {siteConfig.social && (
           <div className="social-links">
@@ -105,7 +141,7 @@ function Home() {
               if (isEmail) {
                 return (
                   <button key={key} className="social-btn" onClick={() => copyEmail(url)}>
-                    {copied ? 'Copied!' : label}
+                    {copied ? t.actions.copied : label}
                   </button>
                 )
               }
@@ -121,9 +157,9 @@ function Home() {
       </header>
 
       <section id="projects" className="projects-section">
-        <h2>Projects</h2>
+        <h2>{t.sections.projects}</h2>
         <ul className="project-list">
-          {projects.map(project => (
+          {currentProjects.map(project => (
             <li key={project.id} className={`project-item ${project.image ? 'has-image' : ''}`}>
               {project.image && (
                 <div className="project-image">
@@ -141,8 +177,8 @@ function Home() {
                   </div>
                 )}
               </div>
-              <Link to={`/projects/${project.id}`} className="project-link">
-                {'View \u2192'}
+              <Link to={`${basePath}/projects/${project.id}`} className="project-link">
+                {`${t.actions.view} \u2192`}
               </Link>
             </li>
           ))}
@@ -150,9 +186,9 @@ function Home() {
       </section>
 
       <section id="internships" className="text-section">
-        <h2>Internships</h2>
+        <h2>{t.sections.internships}</h2>
         <div className="internship-list">
-          {internshipItems.map(item => (
+          {currentInternships.map(item => (
             <article key={item.title} className="internship-card">
               <h3>{item.title}</h3>
               <p>{item.body}</p>
@@ -162,9 +198,9 @@ function Home() {
       </section>
 
       <section id="experience" className="experience-section">
-        <h2>Experience</h2>
+        <h2>{t.sections.experience}</h2>
         <div className="experience-list">
-          {experienceItems.map(item => (
+          {currentExperience.map(item => (
             <article key={item.title} className="experience-item">
               <h3>{item.title}</h3>
               <p>{item.body}</p>
@@ -179,21 +215,21 @@ function Home() {
       </section>
 
       <section id="honors" className="text-section">
-        <h2>Honors &amp; Awards</h2>
+        <h2>{t.sections.honors}</h2>
         <ol className="honors-list">
-          {honorItems.map(item => (
+          {currentHonors.map(item => (
             <li key={item} className="honors-item">{item}</li>
           ))}
         </ol>
       </section>
 
       <section id="gallery" className="gallery-section">
-        <h2>Gallery</h2>
+        <h2>{t.sections.gallery}</h2>
         <p className="gallery-intro">
-          As a non-art major, I use drawing as a way to think and communicate. This gallery collects some of my original and fan art creations. While my techniques are still evolving, several of my works have reached 20,000+ recommendations and 3,000+ saves on the platform, with a total engagement of 24,500+. I have also participated in three public art exhibitions and contributed to UI design and production for three non-personal projects. More importantly, these works have led to multiple paid commission opportunities - a strong proof of their resonance with the audience.
+          {t.galleryIntro}
         </p>
         <div className="gallery-grid">
-          {galleryItems.map(item => (
+          {currentGalleryItems.map(item => (
             <div
               key={item.id}
               className="gallery-item"
@@ -215,7 +251,7 @@ function Home() {
       )}
 
       <footer className="footer">
-        {visitorCount !== null && <p className="visitor-count">Total visits: {visitorCount}</p>}
+        {visitorCount !== null && <p className="visitor-count">{t.actions.totalVisits}: {visitorCount}</p>}
         <p>&copy; {new Date().getFullYear()} {siteConfig.name}</p>
         <p className="powered-by">
           Powered by <a href="https://github.com/kk0x03/kip" target="_blank" rel="noopener noreferrer">Kip</a>

@@ -10,37 +10,6 @@ interface LayoutProps {
   children: ReactNode
 }
 
-// 语言切换函数
-function translatePage(targetLang: string) {
-  // 移除已有的 Google 翻译元素
-  const existingElem = document.getElementById('google_translate_element');
-  if (existingElem) existingElem.remove();
-  
-  const div = document.createElement('div');
-  div.id = 'google_translate_element';
-  div.style.display = 'none';
-  document.body.appendChild(div);
-  
-  // 加载 Google 翻译脚本
-  const script = document.createElement('script');
-  script.src = 'https://translate.google.com/translate_a/element.js?cb=initTranslate';
-  document.body.appendChild(script);
-  
-  (window as any).initTranslate = function() {
-    new (window as any).google.translate.TranslateElement({
-      pageLanguage: 'en',
-      includedLanguages: targetLang,
-      layout: (window as any).google.translate.TranslateElement.InlineLayout.SIMPLE
-    }, 'google_translate_element');
-    
-    const select = document.querySelector('.goog-te-combo') as HTMLSelectElement;
-    if (select) {
-      select.value = targetLang;
-      select.dispatchEvent(new Event('change'));
-    }
-  };
-}
-
 function Layout({ children }: LayoutProps) {
   const recentPosts = [...posts]
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -67,12 +36,6 @@ function Layout({ children }: LayoutProps) {
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/art">Art</NavLink>
           <NavLink to="/about">About</NavLink>
-          {/* 语言切换按钮 */}
-          <span className="lang-switcher">
-            <button onClick={() => translatePage('zh-CN')} className="lang-btn">中</button>
-            <span style={{ margin: '0 4px' }}>/</span>
-            <button onClick={() => translatePage('en')} className="lang-btn">EN</button>
-          </span>
         </nav>
       </header>
 

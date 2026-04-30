@@ -37,6 +37,24 @@
   background: var(--primary-color);
 }
 
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding-left: 0.6rem;
+  border-left: 1px solid color-mix(in srgb, var(--border-color) 45%, transparent);
+}
+
+.home-nav .language-switch a {
+  padding: 0.18rem 0.45rem;
+}
+
+.home-nav a.active,
+.project-language-switch a.active {
+  color: white;
+  background: var(--primary-color);
+}
+
 .home-intro {
   max-width: 720px;
   margin: 0 auto 2.75rem;
