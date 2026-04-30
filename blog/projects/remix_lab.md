@@ -1,6 +1,7 @@
 ---
-title: 6. Remix Lab - Audio Remixing Workstation
+title: 1. Remix Lab - Audio Remixing Workstation
 description: A web-based audio remixing tool with 11 preset effects, BPM detection, waveform visualization, and background audio overlay.
+order: 1
 date: 2026-04-29
 tags:
   - Audio Processing

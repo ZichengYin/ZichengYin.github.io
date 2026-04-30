@@ -1,4 +1,4 @@
-import { experienceItems } from './experience'
+﻿import { experienceItems } from './experience'
 import { galleryItems } from './gallery'
 import { honorItems } from './honors'
 import { internshipItems } from './internships'
@@ -51,10 +51,10 @@ export const text = {
       gallery: '画廊',
     },
     sections: {
-      projects: '项目',
+      projects: '作品项目',
       internships: '实习经历',
-      experience: '实践经历',
-      honors: '荣誉与奖项',
+      experience: '项目经历',
+      honors: '荣誉奖项',
       gallery: '作品画廊',
     },
     actions: {
@@ -71,7 +71,7 @@ export const text = {
       body: '你正在寻找的项目不存在。',
     },
     galleryIntro:
-      '虽然我不是美术专业出身，但绘画一直是我思考和表达的方式。这里收录了一些原创作品与同人创作。我的技法仍在持续成长，其中部分作品在平台上获得了 20,000+ 推荐、3,000+ 收藏，总互动量超过 24,500。我也参与过三次公共艺术展，并为三个非个人项目负责或参与 UI 设计与制作。更重要的是，这些作品带来了多次商业约稿机会，也证明了它们与观众之间的连接。',
+      '虽然并非美术专业出身，但绘画是我长久以来思考和表达的方式。这里收录了一些原创作品与同人创作。我的技法仍在持续成长，其中部分作品在平台上获得了共 20,000+ 推荐、3,000+ 收藏，总互动量超过 24,500。我也参与过三次公共艺术展，为三个非个人项目负责 UI 设计与制作。过去的多次平台约稿交易中，也证明了它们与观众之间的连接。',
   },
 } as const
 
@@ -104,7 +104,6 @@ export const localizedInternships: Record<Language, LocalizedTextItem[]> = {
 export const localizedExperience: Record<Language, LocalizedTextItem[]> = {
   en: experienceItems,
   zh: [
-    { title: '上海市青少年科学院', body: '第三届理事会秘书长，主持理事会会议，任期内组织 4 场市级大型科技活动。' },
     { title: '认知障碍儿童康复训练答题系统', body: '项目负责人，设计完整问答系统。项目入选“声音人才赋能计划”，并获第十九届“挑战杯”上海大学生创业计划竞赛校级三等奖。' },
     { title: '虚拟乐器博物馆', body: '项目经理，协调 3D 乐器建模与交互音频开发，在 Unity 中实现实时音频反馈，带领设计与技术团队并对接 3 家合作机构。' },
     { title: '音乐科技探索展示', body: '总导演，策划并执导游戏音频主题展示，舞台呈现原创游戏声音设计作品，协调 20 人团队完成音频与节目统筹。' },
@@ -116,6 +115,7 @@ export const localizedExperience: Record<Language, LocalizedTextItem[]> = {
     { title: '戏剧与表演', body: '高中戏剧社社长、Destination Imagination 队长，大学期间参演多部学生短片。' },
     { title: 'vivo 中央研究院 - 高级技术外部合作经理', body: '因支持 vivo 中央研究院与上海音乐学院联合实验获得官方表彰，负责多方协调，推动实验顺利执行与技术探索。' },
     { title: '音乐表演', body: 'Banbanband 与 Echo 乐队吉他手，参与商业演出与乐队活动，包括昆山市民文化节乐队专场音乐会。' },
+    { title: '上海市青少年科学院', body: '第三届理事会秘书长，主持理事会会议，任期内组织 4 场市级大型科技活动。' },
   ],
 }
 
@@ -132,30 +132,13 @@ export const localizedHonors: Record<Language, string[]> = {
     '第一届上海市青少年创意大赛 - 汉高可持续创意之星。',
     '徐汇区“上中杯”青少年科技创新论坛 - 区一等奖（2022）。',
     '徐汇区“上中杯”青少年科技创新论坛 - 区一等奖（2020）。',
-    '其他高中前奖项：科学实验类 13 项，绘画与摄影类 10 项，写作类 5 项，主持大型活动 3 场，并获得乐器/体育证书 3 项（含古筝十级）。',
+    '其他奖项：获上海国际青少年科技博览会一等奖等 13 个科技奖项，新美杯国际青少年美术大赛三等奖等 10 个绘画与摄影奖项，在写作方面获得 5 个奖项，古筝十级等 3 项乐器/体育类证书奖项。',
   ],
 }
 
 export const localizedGalleryItems = {
   en: galleryItems,
-  zh: galleryItems.map(item => ({
-    ...item,
-    title: item.title
-      .replace('Performance Data', '平台数据')
-      .replace('Artwork', '作品')
-      .replace('UI Design', 'UI 设计'),
-    description: item.description
-      .replace('My primary platform for publishing my works. Personal page:', '我的主要作品发布平台。个人主页：')
-      .replace('Original character.', '原创角色。')
-      .replace('Fan art of Persona 5 Royal. This piece has received over 1,000 likes across all platforms.', '《女神异闻录 5 皇家版》同人作品，全平台获得 1,000+ 点赞。')
-      .replace('Fan art of Hollow Knight Silksong.', '《空洞骑士：丝之歌》同人作品。')
-      .replace('UI design for a patented software project 路 Virtual Instrument Museum.', '专利软件项目“虚拟乐器博物馆”的 UI 设计。')
-      .replace('Fan art of Hazbin Hotel. This piece has received over 1,000 likes across all platforms.', '《地狱客栈》同人作品，全平台获得 1,000+ 点赞。')
-      .replace('Ace of Diamond fan art. This piece has received over 1,000 likes across all platforms.', '《钻石王牌》同人作品，全平台获得 1,000+ 点赞。')
-      .replace('Ace of Diamond fan art.', '《钻石王牌》同人作品。')
-      .replace('Fan art of Arknights.', '《明日方舟》同人作品。')
-      .replace('Commissioned works from my early freelance period. This piece has received over 1,000 likes across all platforms.', '早期自由职业阶段的委托作品，全平台获得 1,000+ 点赞。'),
-  })),
+  zh: galleryItems,
 }
 
 export function languagePath(language: Language, pathname: string): string {

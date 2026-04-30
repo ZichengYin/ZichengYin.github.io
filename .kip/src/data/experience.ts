@@ -5,10 +5,6 @@ export interface ExperienceItem {
 
 export const experienceItems: ExperienceItem[] = [
 {
-  title: 'Shanghai Youth Academy of Science and Technology',
-  body: 'Secretary-General of the 3rd Council. Presided over all council meetings. Organized 4 city-level large-scale science and technology events during tenure.',
-},
-{
   title: 'Cognitive Rehabilitation Training System',
   body: 'Project Lead. Designed the complete Q&A system. Led the project to be selected for the "Sound Talent Empowerment Program" Program. Won Third Prize in the 19th "Challenge Cup" Shanghai University Student Entrepreneurship Competition (School Level).',
 },
@@ -51,5 +47,9 @@ export const experienceItems: ExperienceItem[] = [
 {
   title: 'Music Performance',
   body: 'Guitarist for Banbanband and Echo bands. Participated in band activities including commercial performances, such as the Kunshan Citizens\' Cultural Festival Band Special Concert.',
+},
+{
+  title: 'Shanghai Youth Academy of Science and Technology',
+  body: 'Secretary-General of the 3rd Council. Presided over all council meetings. Organized 4 city-level large-scale science and technology events during tenure.',
 },
 ]

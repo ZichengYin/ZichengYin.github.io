@@ -1,6 +1,7 @@
 ---
-title: "4. VR 云锣演奏教学游戏"
+title: "5. VR 云锣演奏教学游戏"
 description: 基于 VR 的十面云锣虚拟演奏系统，让用户在沉浸式虚拟环境中演奏中国传统打击乐器。
+order: 5
 date: 2024-01-10
 tags:
   - 虚拟现实
@@ -16,7 +17,7 @@ image: images/vr-game-cover.jpg
 
 ## 相关链接
 
-- [下载项目文件](https://drive.google.com/file/d/1FBPGbyza_UyvXgfcJL651bFULmGuyHLf/view?usp=drive_link)
+- [下载工程文件](https://drive.google.com/file/d/1FBPGbyza_UyvXgfcJL651bFULmGuyHLf/view?usp=drive_link)
 - [演示视频](https://youtu.be/...)
 
 ## 技术栈

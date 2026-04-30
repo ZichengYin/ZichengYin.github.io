@@ -1,6 +1,7 @@
 ---
-title: 3. Desert Rose - 音值节奏训练游戏
+title: 4. Desert Rose - 音值节奏训练游戏
 description: 一款将抽象音符时值概念转化为沉浸式玩法的音乐训练游戏，结合视觉与听觉反馈，并以战争到和平的主题演变构建叙事。
+order: 4
 date: 2025-04-05
 tags:
   - 音乐教育

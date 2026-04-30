@@ -1,6 +1,7 @@
 ---
-title: "4. VR Cloud Gong Performance Teaching Game"
+title: "5. VR Cloud Gong Performance Teaching Game"
 description: "A VR-based virtual performance system for the ten-tone cloud gong, allowing users to play traditional Chinese percussion instruments in an immersive virtual environment."
+order: 5
 date: 2024-01-10
 tags:
   - Virtual Reality

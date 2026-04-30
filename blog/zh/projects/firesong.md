@@ -1,6 +1,7 @@
 ---
-title: 1. Firesong 2D 横版射击游戏
+title: 2. Firesong 2D 横版射击游戏
 description: 一款以分层交互声音设计为核心的 2D 横版射击游戏，包含 6 种子弹、5 类敌人，以及经 Cubase 后期处理的 AI 生成音乐。
+order: 2
 date: 2026-01-16
 tags:
   - 2D 射击

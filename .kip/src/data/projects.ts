@@ -4,9 +4,41 @@ import type { Project } from '../types'
 
 export const projects: Project[] = [
   {
+    "id": "remix_lab",
+    "title": "1. Remix Lab - Audio Remixing Workstation",
+    "description": "A web-based audio remixing tool with 11 preset effects, BPM detection, waveform visualization, and background audio overlay.",
+    "order": 1,
+    "date": "2026-04-29T00:00:00.000Z",
+    "tags": [
+      "Audio Processing",
+      "Web Application",
+      "Streamlit",
+      "UI/UX Design"
+    ],
+    "image": "images/remix-cover.jpg?raw=true",
+    "content": "## Project Introduction\r\n\r\nThis project is a browser-based audio remixing workstation that allows users to upload songs, apply various audio effects, and generate personalized remixed versions. Based on an open-source project, I focused on feature design and addition, including 11 preset effects (Dreamy, Vintage, Glitchy, Hyperspeed, Underwater, Radio, Alien, Spooky), real-time BPM detection, waveform visualization, and background audio overlay (vinyl crackle + ambient sounds). The application runs on Streamlit with audio processing powered by Pydub and Spotify Pedalboard.\r\n\r\n## Related Links\r\n\r\n- [Live Demo](https://remixlab.streamlit.app)\r\n- [GitHub Repository](https://github.com/ZichengYin/music_remixer01)\r\n- [Demo video](https://github.com/ZichengYin/music_remixer01)\r\n\r\n## Tech Stack\r\n\r\n- **Frontend/Interface**: Streamlit\r\n- **Audio Processing**: Pydub, Spotify Pedalboard, Librosa\r\n- **Data Visualization**: Matplotlib\r\n- **System Dependencies**: FFmpeg, NumPy\r\n\r\n## My Role\r\n\r\n- Project maintainer and feature developer\r\n- UI/UX design (sunset theme)\r\n- Audio processing pipeline integration\r\n\r\n## Project Highlights\r\n\r\n- 11 preset effects with one-click application\r\n- Bilingual interface\r\n- 10-second preview mode with progress callback\r\n- Background audio overlay system (vinyl crackle + ambient)\r\n- Real-time BPM detection and waveform visualization\r\n- Custom preset save/load\r\n\r\n## Related document\r\n\r\n- [Production Report (PDF)](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Remix%20Lab%20Development%20Report.pdf)",
+    "html": "<h2>Project Introduction</h2>\n<p>This project is a browser-based audio remixing workstation that allows users to upload songs, apply various audio effects, and generate personalized remixed versions. Based on an open-source project, I focused on feature design and addition, including 11 preset effects (Dreamy, Vintage, Glitchy, Hyperspeed, Underwater, Radio, Alien, Spooky), real-time BPM detection, waveform visualization, and background audio overlay (vinyl crackle + ambient sounds). The application runs on Streamlit with audio processing powered by Pydub and Spotify Pedalboard.</p>\n<h2>Related Links</h2>\n<ul>\n<li><a href=\"https://remixlab.streamlit.app\">Live Demo</a></li>\n<li><a href=\"https://github.com/ZichengYin/music_remixer01\">GitHub Repository</a></li>\n<li><a href=\"https://github.com/ZichengYin/music_remixer01\">Demo video</a></li>\n</ul>\n<h2>Tech Stack</h2>\n<ul>\n<li><strong>Frontend/Interface</strong>: Streamlit</li>\n<li><strong>Audio Processing</strong>: Pydub, Spotify Pedalboard, Librosa</li>\n<li><strong>Data Visualization</strong>: Matplotlib</li>\n<li><strong>System Dependencies</strong>: FFmpeg, NumPy</li>\n</ul>\n<h2>My Role</h2>\n<ul>\n<li>Project maintainer and feature developer</li>\n<li>UI/UX design (sunset theme)</li>\n<li>Audio processing pipeline integration</li>\n</ul>\n<h2>Project Highlights</h2>\n<ul>\n<li>11 preset effects with one-click application</li>\n<li>Bilingual interface</li>\n<li>10-second preview mode with progress callback</li>\n<li>Background audio overlay system (vinyl crackle + ambient)</li>\n<li>Real-time BPM detection and waveform visualization</li>\n<li>Custom preset save/load</li>\n</ul>\n<h2>Related document</h2>\n<ul>\n<li><a href=\"https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Remix%20Lab%20Development%20Report.pdf\">Production Report (PDF)</a></li>\n</ul>\n",
+    "source": "markdown",
+    "translations": {
+      "zh": {
+        "title": "1. Remix Lab - 音频 Remix 工作站",
+        "description": "基于网页的音频 Remix 工具，支持 11 种预设效果、BPM 检测、波形可视化和背景音叠加。",
+        "tags": [
+          "音频处理",
+          "Web 应用",
+          "Streamlit",
+          "UI/UX 设计"
+        ],
+        "content": "## 项目简介\n\nRemix Lab 是一个运行在浏览器中的音频 Remix 工作站，用户可以上传歌曲、应用不同音频效果，并生成个性化的混音版本。项目基于开源项目进行二次开发，我主要负责功能设计与功能扩展，包括 11 种预设效果、实时 BPM 检测、波形可视化，以及黑胶噪声与环境声构成的背景音叠加系统。应用使用 Streamlit 构建界面，音频处理由 Pydub 与 Spotify Pedalboard 支持。\n\n## 相关链接\n\n- [在线演示](https://remixlab.streamlit.app)\n- [GitHub 仓库](https://github.com/ZichengYin/music_remixer01)\n- [演示视频](https://github.com/ZichengYin/music_remixer01)\n\n## 技术栈\n\n- **前端/界面**：Streamlit\n- **音频处理**：Pydub、Spotify Pedalboard、Librosa\n- **数据可视化**：Matplotlib\n- **系统依赖**：FFmpeg、NumPy\n\n## 我的职责\n\n- 项目维护者与功能开发者\n- UI/UX 设计（夕阳主题）\n- 音频处理流程集成\n\n## 项目亮点\n\n- 11 种预设音效，一键应用\n- 双语界面\n- 10 秒预览模式与进度回调\n- 背景音叠加系统，包括黑胶噪声与环境声\n- 实时 BPM 检测与波形可视化\n- 自定义预设保存与读取\n\n## 相关文档\n\n- [制作报告（PDF）](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Remix%20Lab%20Development%20Report.pdf)",
+        "html": "<h2>项目简介</h2>\n<p>Remix Lab 是一个运行在浏览器中的音频 Remix 工作站，用户可以上传歌曲、应用不同音频效果，并生成个性化的混音版本。项目基于开源项目进行二次开发，我主要负责功能设计与功能扩展，包括 11 种预设效果、实时 BPM 检测、波形可视化，以及黑胶噪声与环境声构成的背景音叠加系统。应用使用 Streamlit 构建界面，音频处理由 Pydub 与 Spotify Pedalboard 支持。</p>\n<h2>相关链接</h2>\n<ul>\n<li><a href=\"https://remixlab.streamlit.app\">在线演示</a></li>\n<li><a href=\"https://github.com/ZichengYin/music_remixer01\">GitHub 仓库</a></li>\n<li><a href=\"https://github.com/ZichengYin/music_remixer01\">演示视频</a></li>\n</ul>\n<h2>技术栈</h2>\n<ul>\n<li><strong>前端/界面</strong>：Streamlit</li>\n<li><strong>音频处理</strong>：Pydub、Spotify Pedalboard、Librosa</li>\n<li><strong>数据可视化</strong>：Matplotlib</li>\n<li><strong>系统依赖</strong>：FFmpeg、NumPy</li>\n</ul>\n<h2>我的职责</h2>\n<ul>\n<li>项目维护者与功能开发者</li>\n<li>UI/UX 设计（夕阳主题）</li>\n<li>音频处理流程集成</li>\n</ul>\n<h2>项目亮点</h2>\n<ul>\n<li>11 种预设音效，一键应用</li>\n<li>双语界面</li>\n<li>10 秒预览模式与进度回调</li>\n<li>背景音叠加系统，包括黑胶噪声与环境声</li>\n<li>实时 BPM 检测与波形可视化</li>\n<li>自定义预设保存与读取</li>\n</ul>\n<h2>相关文档</h2>\n<ul>\n<li><a href=\"https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Remix%20Lab%20Development%20Report.pdf\">制作报告（PDF）</a></li>\n</ul>\n"
+      }
+    }
+  },
+  {
     "id": "firesong",
-    "title": "1. Firesong 2D Shooter Game",
+    "title": "2. Firesong 2D Shooter Game",
     "description": "A 2D side-scrolling shooter game featuring layered interactive sound design, 6 bullet types with unique audio-visual feedback, 5 enemy types, and AI-generated music processed in Cubase.",
+    "order": 2,
     "date": "2026-01-16T00:00:00.000Z",
     "tags": [
       "2D Shooter",
@@ -21,7 +53,7 @@ export const projects: Project[] = [
     "source": "markdown",
     "translations": {
       "zh": {
-        "title": "1. Firesong 2D 横版射击游戏",
+        "title": "2. Firesong 2D 横版射击游戏",
         "description": "一款以分层交互声音设计为核心的 2D 横版射击游戏，包含 6 种子弹、5 类敌人，以及经 Cubase 后期处理的 AI 生成音乐。",
         "tags": [
           "2D 射击",
@@ -37,8 +69,9 @@ export const projects: Project[] = [
   },
   {
     "id": "cognitive-game",
-    "title": "2. Cognitive Rehabilitation Training Quiz System for Children with Cognitive Impairments",
+    "title": "3. Cognitive Rehabilitation Training Quiz System for Children with Cognitive Impairments",
     "description": "A quiz-based rehabilitation system specifically designed for children with cognitive impairments, integrating brain-computer interface (BCI) and eye-tracking technologies for personalized training.",
+    "order": 3,
     "date": "2024-10-17T00:00:00.000Z",
     "tags": [
       "Medical Rehabilitation",
@@ -52,7 +85,7 @@ export const projects: Project[] = [
     "source": "markdown",
     "translations": {
       "zh": {
-        "title": "2. 认知障碍儿童康复训练答题系统",
+        "title": "3. 认知障碍儿童康复训练答题系统",
         "description": "面向认知障碍儿童的康复训练答题系统，结合脑机接口与眼动追踪技术，实现个性化训练与交互。",
         "tags": [
           "医疗康复",
@@ -67,8 +100,9 @@ export const projects: Project[] = [
   },
   {
     "id": "desert-rose",
-    "title": "3. Desert Rose - Timing Training Game",
+    "title": "4. Desert Rose - Timing Training Game",
     "description": "A gamified music timing training game that transforms abstract note duration concepts into immersive gameplay, featuring dual visual-auditory feedback and a war-to-peace thematic evolution.",
+    "order": 4,
     "date": "2025-04-05T00:00:00.000Z",
     "tags": [
       "Music Education",
@@ -84,7 +118,7 @@ export const projects: Project[] = [
     "source": "markdown",
     "translations": {
       "zh": {
-        "title": "3. Desert Rose - 音值节奏训练游戏",
+        "title": "4. Desert Rose - 音值节奏训练游戏",
         "description": "一款将抽象音符时值概念转化为沉浸式玩法的音乐训练游戏，结合视觉与听觉反馈，并以战争到和平的主题演变构建叙事。",
         "tags": [
           "音乐教育",
@@ -101,8 +135,9 @@ export const projects: Project[] = [
   },
   {
     "id": "vr-game",
-    "title": "4. VR Cloud Gong Performance Teaching Game",
+    "title": "5. VR Cloud Gong Performance Teaching Game",
     "description": "A VR-based virtual performance system for the ten-tone cloud gong, allowing users to play traditional Chinese percussion instruments in an immersive virtual environment.",
+    "order": 5,
     "date": "2024-01-10T00:00:00.000Z",
     "tags": [
       "Virtual Reality",
@@ -117,7 +152,7 @@ export const projects: Project[] = [
     "source": "markdown",
     "translations": {
       "zh": {
-        "title": "4. VR 云锣演奏教学游戏",
+        "title": "5. VR 云锣演奏教学游戏",
         "description": "基于 VR 的十面云锣虚拟演奏系统，让用户在沉浸式虚拟环境中演奏中国传统打击乐器。",
         "tags": [
           "虚拟现实",
@@ -132,8 +167,9 @@ export const projects: Project[] = [
   },
   {
     "id": "mixing-work",
-    "title": "5. Chinese Traditional Music Mixing Project",
+    "title": "6. Chinese Traditional Music Mixing Project",
     "description": "Traditional Chinese music mixing production",
+    "order": 6,
     "date": "2026-04-15T00:00:00.000Z",
     "tags": [
       "Mixing",
@@ -146,7 +182,7 @@ export const projects: Project[] = [
     "source": "markdown",
     "translations": {
       "zh": {
-        "title": "5. 中国传统音乐混音项目",
+        "title": "6. 中国传统音乐混音项目",
         "description": "以现代混音技术呈现中国传统民乐质感的音乐制作项目。",
         "tags": [
           "混音",
@@ -155,36 +191,6 @@ export const projects: Project[] = [
         ],
         "content": "## 项目简介\n\n这是一个中国传统音乐混音制作项目，目标是在保留传统民乐音色质感的基础上，通过现代混音技术增强空间、动态与整体听感，让传统音乐在当代听觉语境中更具表现力。\n\n## 相关链接\n\n- [GitHub 仓库](https://github.com/...)\n- [演示视频](https://youtu.be/...)\n- [在线收听](https://...)\n- [项目文档](https://...)\n\n## 工具与技术\n\n- DAW：待补充\n- 主要处理：EQ、动态处理、空间效果\n\n## 项目特点\n\n- 保留中国传统音乐的真实音色与演奏质感\n- 融合现代混音流程，提升清晰度与空间层次",
         "html": "<h2>项目简介</h2>\n<p>这是一个中国传统音乐混音制作项目，目标是在保留传统民乐音色质感的基础上，通过现代混音技术增强空间、动态与整体听感，让传统音乐在当代听觉语境中更具表现力。</p>\n<h2>相关链接</h2>\n<ul>\n<li><a href=\"https://github.com/...\">GitHub 仓库</a></li>\n<li><a href=\"https://youtu.be/...\">演示视频</a></li>\n<li><a href=\"https://...\">在线收听</a></li>\n<li><a href=\"https://...\">项目文档</a></li>\n</ul>\n<h2>工具与技术</h2>\n<ul>\n<li>DAW：待补充</li>\n<li>主要处理：EQ、动态处理、空间效果</li>\n</ul>\n<h2>项目特点</h2>\n<ul>\n<li>保留中国传统音乐的真实音色与演奏质感</li>\n<li>融合现代混音流程，提升清晰度与空间层次</li>\n</ul>\n"
-      }
-    }
-  },
-  {
-    "id": "remix_lab",
-    "title": "6. Remix Lab - Audio Remixing Workstation",
-    "description": "A web-based audio remixing tool with 11 preset effects, BPM detection, waveform visualization, and background audio overlay.",
-    "date": "2026-04-29T00:00:00.000Z",
-    "tags": [
-      "Audio Processing",
-      "Web Application",
-      "Streamlit",
-      "UI/UX Design"
-    ],
-    "image": "images/remix-cover.jpg?raw=true",
-    "content": "## Project Introduction\r\n\r\nThis project is a browser-based audio remixing workstation that allows users to upload songs, apply various audio effects, and generate personalized remixed versions. Based on an open-source project, I focused on feature design and addition, including 11 preset effects (Dreamy, Vintage, Glitchy, Hyperspeed, Underwater, Radio, Alien, Spooky), real-time BPM detection, waveform visualization, and background audio overlay (vinyl crackle + ambient sounds). The application runs on Streamlit with audio processing powered by Pydub and Spotify Pedalboard.\r\n\r\n## Related Links\r\n\r\n- [Live Demo](https://remixlab.streamlit.app)\r\n- [GitHub Repository](https://github.com/ZichengYin/music_remixer01)\r\n- [Demo video](https://github.com/ZichengYin/music_remixer01)\r\n\r\n## Tech Stack\r\n\r\n- **Frontend/Interface**: Streamlit\r\n- **Audio Processing**: Pydub, Spotify Pedalboard, Librosa\r\n- **Data Visualization**: Matplotlib\r\n- **System Dependencies**: FFmpeg, NumPy\r\n\r\n## My Role\r\n\r\n- Project maintainer and feature developer\r\n- UI/UX design (sunset theme)\r\n- Audio processing pipeline integration\r\n\r\n## Project Highlights\r\n\r\n- 11 preset effects with one-click application\r\n- Bilingual interface\r\n- 10-second preview mode with progress callback\r\n- Background audio overlay system (vinyl crackle + ambient)\r\n- Real-time BPM detection and waveform visualization\r\n- Custom preset save/load\r\n\r\n## Related document\r\n\r\n- [Production Report (PDF)](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Remix%20Lab%20Development%20Report.pdf)",
-    "html": "<h2>Project Introduction</h2>\n<p>This project is a browser-based audio remixing workstation that allows users to upload songs, apply various audio effects, and generate personalized remixed versions. Based on an open-source project, I focused on feature design and addition, including 11 preset effects (Dreamy, Vintage, Glitchy, Hyperspeed, Underwater, Radio, Alien, Spooky), real-time BPM detection, waveform visualization, and background audio overlay (vinyl crackle + ambient sounds). The application runs on Streamlit with audio processing powered by Pydub and Spotify Pedalboard.</p>\n<h2>Related Links</h2>\n<ul>\n<li><a href=\"https://remixlab.streamlit.app\">Live Demo</a></li>\n<li><a href=\"https://github.com/ZichengYin/music_remixer01\">GitHub Repository</a></li>\n<li><a href=\"https://github.com/ZichengYin/music_remixer01\">Demo video</a></li>\n</ul>\n<h2>Tech Stack</h2>\n<ul>\n<li><strong>Frontend/Interface</strong>: Streamlit</li>\n<li><strong>Audio Processing</strong>: Pydub, Spotify Pedalboard, Librosa</li>\n<li><strong>Data Visualization</strong>: Matplotlib</li>\n<li><strong>System Dependencies</strong>: FFmpeg, NumPy</li>\n</ul>\n<h2>My Role</h2>\n<ul>\n<li>Project maintainer and feature developer</li>\n<li>UI/UX design (sunset theme)</li>\n<li>Audio processing pipeline integration</li>\n</ul>\n<h2>Project Highlights</h2>\n<ul>\n<li>11 preset effects with one-click application</li>\n<li>Bilingual interface</li>\n<li>10-second preview mode with progress callback</li>\n<li>Background audio overlay system (vinyl crackle + ambient)</li>\n<li>Real-time BPM detection and waveform visualization</li>\n<li>Custom preset save/load</li>\n</ul>\n<h2>Related document</h2>\n<ul>\n<li><a href=\"https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Remix%20Lab%20Development%20Report.pdf\">Production Report (PDF)</a></li>\n</ul>\n",
-    "source": "markdown",
-    "translations": {
-      "zh": {
-        "title": "6. Remix Lab - 音频 Remix 工作站",
-        "description": "基于网页的音频 Remix 工具，支持 11 种预设效果、BPM 检测、波形可视化和背景音叠加。",
-        "tags": [
-          "音频处理",
-          "Web 应用",
-          "Streamlit",
-          "UI/UX 设计"
-        ],
-        "content": "## 项目简介\n\nRemix Lab 是一个运行在浏览器中的音频 Remix 工作站，用户可以上传歌曲、应用不同音频效果，并生成个性化的混音版本。项目基于开源项目进行二次开发，我主要负责功能设计与功能扩展，包括 11 种预设效果、实时 BPM 检测、波形可视化，以及黑胶噪声与环境声构成的背景音叠加系统。应用使用 Streamlit 构建界面，音频处理由 Pydub 与 Spotify Pedalboard 支持。\n\n## 相关链接\n\n- [在线演示](https://remixlab.streamlit.app)\n- [GitHub 仓库](https://github.com/ZichengYin/music_remixer01)\n- [演示视频](https://github.com/ZichengYin/music_remixer01)\n\n## 技术栈\n\n- **前端/界面**：Streamlit\n- **音频处理**：Pydub、Spotify Pedalboard、Librosa\n- **数据可视化**：Matplotlib\n- **系统依赖**：FFmpeg、NumPy\n\n## 我的职责\n\n- 项目维护者与功能开发者\n- UI/UX 设计（夕阳主题）\n- 音频处理流程集成\n\n## 项目亮点\n\n- 11 种预设音效，一键应用\n- 双语界面\n- 10 秒预览模式与进度回调\n- 背景音叠加系统，包括黑胶噪声与环境声\n- 实时 BPM 检测与波形可视化\n- 自定义预设保存与读取\n\n## 相关文档\n\n- [制作报告（PDF）](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Remix%20Lab%20Development%20Report.pdf)",
-        "html": "<h2>项目简介</h2>\n<p>Remix Lab 是一个运行在浏览器中的音频 Remix 工作站，用户可以上传歌曲、应用不同音频效果，并生成个性化的混音版本。项目基于开源项目进行二次开发，我主要负责功能设计与功能扩展，包括 11 种预设效果、实时 BPM 检测、波形可视化，以及黑胶噪声与环境声构成的背景音叠加系统。应用使用 Streamlit 构建界面，音频处理由 Pydub 与 Spotify Pedalboard 支持。</p>\n<h2>相关链接</h2>\n<ul>\n<li><a href=\"https://remixlab.streamlit.app\">在线演示</a></li>\n<li><a href=\"https://github.com/ZichengYin/music_remixer01\">GitHub 仓库</a></li>\n<li><a href=\"https://github.com/ZichengYin/music_remixer01\">演示视频</a></li>\n</ul>\n<h2>技术栈</h2>\n<ul>\n<li><strong>前端/界面</strong>：Streamlit</li>\n<li><strong>音频处理</strong>：Pydub、Spotify Pedalboard、Librosa</li>\n<li><strong>数据可视化</strong>：Matplotlib</li>\n<li><strong>系统依赖</strong>：FFmpeg、NumPy</li>\n</ul>\n<h2>我的职责</h2>\n<ul>\n<li>项目维护者与功能开发者</li>\n<li>UI/UX 设计（夕阳主题）</li>\n<li>音频处理流程集成</li>\n</ul>\n<h2>项目亮点</h2>\n<ul>\n<li>11 种预设音效，一键应用</li>\n<li>双语界面</li>\n<li>10 秒预览模式与进度回调</li>\n<li>背景音叠加系统，包括黑胶噪声与环境声</li>\n<li>实时 BPM 检测与波形可视化</li>\n<li>自定义预设保存与读取</li>\n</ul>\n<h2>相关文档</h2>\n<ul>\n<li><a href=\"https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Remix%20Lab%20Development%20Report.pdf\">制作报告（PDF）</a></li>\n</ul>\n"
       }
     }
   }

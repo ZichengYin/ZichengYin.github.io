@@ -1,6 +1,7 @@
 ---
-title: 6. Remix Lab - 音频 Remix 工作站
+title: 1. Remix Lab - 音频 Remix 工作站
 description: 基于网页的音频 Remix 工具，支持 11 种预设效果、BPM 检测、波形可视化和背景音叠加。
+order: 1
 date: 2026-04-29
 tags:
   - 音频处理

@@ -1,6 +1,7 @@
 ---
-title: 5. Chinese Traditional Music Mixing Project
+title: 6. Chinese Traditional Music Mixing Project
 description: Traditional Chinese music mixing production
+order: 6
 date: 2026-04-15
 tags:
   - Mixing
