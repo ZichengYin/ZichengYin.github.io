@@ -2,7 +2,7 @@
 name: Zicheng Yin | Ray Yin
 bio: |
   上海音乐学院音乐科技专业学生（2027 届）。
-  吉他手与插画创作者，关注创意编程、AI 与游戏制作。
+  吉他手&画手。专注于创意编程、AI 与游戏制作。
 avatar: images/avatar.jpeg
 social:
   github: https://github.com/ZichengYin

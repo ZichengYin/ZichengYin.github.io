@@ -46,7 +46,7 @@ export const experienceItems: ExperienceItem[] = [
 },
 {
   title: 'Music Performance',
-  body: 'Guitarist for Banbanband and Echo bands. Participated in band activities including commercial performances, such as the Kunshan Citizens\' Cultural Festival Band Special Concert.',
+  body: 'Guitarist for Banbanband and Echo bands. Participated in band activities including commercial performances, such as the Kunshan Citizens\' Cultural Festival Band Special Concert. Also the leader of the Choir of the Music Engineering Department, Shanghai Conservatory of Music',
 },
 {
   title: 'Shanghai Youth Academy of Science and Technology',
