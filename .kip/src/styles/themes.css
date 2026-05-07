@@ -1,4 +1,4 @@
-/* Theme: dark */
+﻿/* Theme: dark */
 [data-theme="dark"] {
   --primary-color: #0d6efd;
   --text-primary: #c9d1d9;
@@ -22,28 +22,29 @@
   --tag-bg: rgba(175, 184, 193, 0.2);
 }
 
-/* Theme: sunset sea */
+/* Theme: ocean */
 [data-theme="ocean"] {
-  --primary-color: #f59e0b;     /* 琥珀橙（链接/按钮/强调�?*/
-  --text-primary: #fdba74;      /* 浅米黄（标题文字�?*/
-  --text-secondary: #fef3c7;    /* 橙黄（正�?bio文字�?*/
-  --bg-primary: linear-gradient(180deg, #2f8edb 0%, #1e3a5f 42%, #1e3a5f 100%); /* Ocean gradient: brighter blue at top, original deep blue retained below */
-  --bg-secondary: #2c4c6e;      /* 中深蓝（侧边栏） */
-  --card-bg: #3b6e9e;           /* 饱和度更高的蓝色（卡片） */
-  --border-color: #4b8bb4;      /* 亮蓝灰边�?*/
-  --tag-bg: rgba(245, 158, 11, 0.15);  /* 半透明琥珀橙标�?*/
+  --primary-color: #f59e0b;
+  --text-primary: #fdba74;
+  --text-secondary: #fef3c7;
+  --bg-primary: #1e3a5f;
+  --bg-gradient: linear-gradient(180deg, #2f8edb 0%, #1e3a5f 100%);
+  --bg-secondary: #2c4c6e;
+  --card-bg: #3b6e9e;
+  --border-color: #4b8bb4;
+  --tag-bg: rgba(245, 158, 11, 0.15);
 }
 
-/* Theme: deep red */
+/* Theme: forest */
 [data-theme="forest"] {
-  --primary-color: #e53935;     /* 正红（强调色�?*/
-  --text-primary: #ffffff;      /* 白色主要文字 */
-  --text-secondary: #e0e0e0;    /* 浅灰白次要文�?*/
-  --bg-primary: #3d0c0c;        /* 深红主背�?*/
-  --bg-secondary: #5c1515;      /* 稍浅深红（侧边栏/卡片背景�?*/
-  --card-bg: #5c1515;           /* 卡片背景 */
-  --border-color: #8b2a2a;      /* 红色边框 */
-  --tag-bg: rgba(229, 57, 53, 0.2);  /* 半透明红标�?*/
+  --primary-color: #e53935;
+  --text-primary: #ffffff;
+  --text-secondary: #e0e0e0;
+  --bg-primary: #3d0c0c;
+  --bg-secondary: #5c1515;
+  --card-bg: #5c1515;
+  --border-color: #8b2a2a;
+  --tag-bg: rgba(229, 57, 53, 0.2);
 }
 
 /* Theme: sunset */
