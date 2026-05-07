@@ -1,61 +1,64 @@
 ---
 title: 3. Cognitive Rehabilitation Training Quiz System for Children with Cognitive Impairments
-description: A quiz-based rehabilitation system specifically designed for children with cognitive impairments, integrating brain-computer interface (BCI) and eye-tracking technologies for personalized training.
+description: A quiz-based rehabilitation training system for children with cognitive impairments, integrating brain-computer interface (BCI) and eye-tracking technologies to achieve personalized training and interaction.
 order: 3
 date: 2024-10-17
 tags:
   - Medical Rehabilitation
   - Brain-Computer Interface
-  - Education
+  - Multisensory Synesthesia
   - Interaction Design
 image: images/cognitive-cover.jpg?raw=true
 ---
 
 ## Project Introduction
 
-This project is a rehabilitation training quiz system for children with cognitive disorders (e.g., cerebral palsy, autism). It was selected for the “Sound Talent Empowerment Program” and originated from an on-site investigation at the Rehabilitation Department of Shanghai Children’s Hospital in November 2023. The system adopts a multi-sensory collaborative training strategy, converting traditional visual questions into audio-paired visual selections, and further integrates non-invasive BCI and eye-tracking technologies to enable real-time attention and relaxation level monitoring, as well as convenient eye-movement interaction. Currently, version 1.0 of the quiz system has been developed and preliminarily tested at Shanghai Children’s Hospital.
+This project is a rehabilitation training quiz system for children with cognitive impairments (e.g., cerebral palsy, autism). It originated from an on-site investigation at the Rehabilitation Department of Shanghai Children‘s Hospital in November 2023 and was selected for the “Sound Talent Empowerment Program” at the Shanghai Conservatory of Music. The system adopts a multi-sensory collaborative training strategy, transforming traditional visual questions into an “audio + visual selection” format. It further integrates non-invasive brain-computer interface (BCI) and eye-tracking technologies to achieve real-time monitoring of attention and relaxation levels, as well as more convenient eye-movement interaction.
+
+Currently, version 1.0 of the quiz system has been completed and has undergone preliminary testing at Shanghai Children’s Hospital.
 
 ## Related Links
 
 - [GitHub Repository](https://github.com/ZichengYin/Cognitive-Rehabilitation-Training-Quiz-System)
 - [Demo Video](https://youtu.be/...)
-- [Play Online](https://zichengyin.github.io/Cognitive-Rehabilitation-Training-Quiz-System/)
-> 💡 The full interactive functions of this program require a brain-computer interface (BCI) device. Please refer to the demo video for more details.
+- [Online Experience](https://zichengyin.github.io/Cognitive-Rehabilitation-Training-Quiz-System/)
+
+> Full interactive functionality requires a BCI device. Please refer to the demo video for specific effects.
 
 ## Tech Stack
 
 - **Development Platform**: Unity
 - **Core Technologies**:
-  - Non-invasive BCI device (real-time EEG data acquisition)
-  - Eye-tracking device (gaze point and movement capture)
-  - C# driver scripts for BCI data import and display
-  - Real-time sine wave visualization based on focus and relaxation levels
-- **Additional Features**: Game mode (10-question scoring) + Training mode (infinite-loop design)
+  - Non-invasive BCI device for real-time EEG data acquisition
+  - Eye-tracking device for gaze point and movement capture
+  - C# driver scripts for BCI data import and visualization
+  - Real-time sine wave visualization based on attention and relaxation levels
+- **Additional Features**: Game mode (10-question scoring) and Training mode (loop training)
 
 ## My Role
 
-- Project leader and programmer
+- Project leader and programming developer
 - System architecture design
 - BCI device driver integration and data processing
-- Audio production (self-recorded animal sounds in Inner Mongolia)
+- Audio and image production, including self-recorded animal sounds in Inner Mongolia
 - UI design and question bank construction
 
 ## Project Highlights
 
-- Multi-sensory collaboration (audio + visual) to promote neural remodeling
-- Real-time personalized training adjustment based on EEG data
-- Low-cost BCI and eye-tracker selection for future large-scale deployment
-- Two operation modes: Game mode (family use) and Training mode (clinical data collection)
-- Awarded **Second Prize** in an innovation and entrepreneurship competition
+- Multi-sensory collaborative training, promoting neural remodeling through sound and vision
+- Real-time training content adjustment based on EEG data
+- Selection of low-cost BCI and eye-tracking devices for future large-scale deployment
+- Includes Game mode for home use and Training mode for clinical data collection
+- Awarded Third Prize in an innovation and entrepreneurship competition
 
-## Project Achievement & Future Plan
+## Project Achievements and Future Plans
 
-- **Current Achievement**: Version 1.0 of the quiz system completed; preliminary hospital tests conducted.
-- **Future Plan**:
-  1. Expand question bank and use BCI data to dynamically adjust question types (algorithm-driven personalization)
-  2. Complete the Training Mode (waiting for question bank to reach a sufficient size)
-  3. Integrate eye-tracking to assist children with multiple disabilities
-  4. Further cooperate with Shanghai Children’s Hospital and Tianqiao Institute of Brain Science to push clinical application
+- **Current Achievement**: Completed version 1.0 of the quiz system and conducted preliminary testing at Shanghai Children‘s Hospital.
+- **Future Plans**:
+  1. Expand the question bank and dynamically adjust question types based on BCI data
+  2. Improve the Training mode
+  3. Integrate eye-tracking interaction to assist children with multiple disabilities
+  4. Continue to promote clinical application in collaboration with Shanghai Children’s Hospital and Tianqiao Institute of Brain Science
 
 ## Related Documents
 

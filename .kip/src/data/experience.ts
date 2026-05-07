@@ -37,6 +37,10 @@ export const experienceItems: ExperienceItem[] = [
   body: 'Served as the Lead Brand Ambassador and Student Representative for the school at the 2024 Music China international trade fair. Coordinated the ambassador team and supported overseas brands with product promotion, facilitating cross-cultural exchange in music technology.',
 },
 {
+  title: '2024 Music China - Virtual Cloud Gong Exhibition',
+  body: 'Exhibited the project "Virtual Cloud Gong" at the 2024 Music China international trade fair in Shanghai，attracting considerable attention and engagement from numerous visitors.',
+},
+{
   title: 'Theater & Acting',
   body: 'High School Drama Club President. Team Captain of the Destination Imagination challenge. Performed in multiple student short films during university, including "半" and "未来的未来".',
 },

@@ -1,12 +1,12 @@
 ---
 title: "5. VR Cloud Gong Performance Teaching Game"
-description: "A VR-based virtual performance system for the ten-tone cloud gong, allowing users to play traditional Chinese percussion instruments in an immersive virtual environment."
+description: A VR-based virtual performance system for the ten-tone cloud gong, allowing users to play a rare traditional Chinese percussion instrument in an immersive virtual environment.
 order: 5
 date: 2024-01-10
 tags:
   - Virtual Reality
   - Music Technology
-  - Chinese Traditional Instruments
+  - Traditional Chinese Instrument Culture
   - Interaction Design
   - Music Education
 image: images/vr-game-cover.jpg
@@ -14,7 +14,7 @@ image: images/vr-game-cover.jpg
 
 ## Project Introduction
 
-'This project is a virtual musical instrument performance system developed for the Virtual Musical Instrument Museum project of the MuseBit team. It uses VR glasses (Oculus Meta Quest 3) to allow users to play the ten-tone cloud gong, a traditional Chinese percussion instrument, in an immersive 3D scene. The system addresses the physical wear and pitch instability of real cloud gongs by providing a perfect digital replica. As a representative interactive experience of the MuseBit Virtual Musical Instrument Museum, it was exhibited at the "UK-China Youth Digital Creation Exhibition (London)," an official partner event of the 2024 London Design Festival held at Royal Mint Court, where it received widespread attention and unanimous praise.',
+This project is a branch feature developed for the MuseBit team's "Virtual Instrument Museum": a virtual instrument performance system. The system uses VR devices such as the Oculus Meta Quest 3, allowing users to play the ten-tone cloud gong, a traditional Chinese percussion instrument, in an immersive 3D scene. By digitally replicating the instrument, the project solves the problems of physical wear and pitch instability found in real cloud gongs. As a representative interactive experience of the MuseBit Virtual Instrument Museum, it has been exhibited at the "UK-China Youth Digital Creation Exhibition (London)" (an official partner event of the 2024 London Design Festival) and the "Shanghai International Music Expo."
 
 ## Related Links
 
@@ -26,34 +26,34 @@ image: images/vr-game-cover.jpg
 - **Development Platform**: Unity
 - **VR Device**: Oculus Meta Quest 3
 - **3D Modeling**: Maya, 3ds Max, Blender
-- **Audio Recording**: Cubase 12, YAMAHA Ag03, Shure SM58
+- **Audio Recording**: Cubase 12, YAMAHA AG03, Shure SM58
 - **Audio Editing**: Reaper
-- **Core Features**: Collision-triggered sound effects, handle adaptation for mallet control, left-hand movement control
+- **Core Features**: Right-hand mallet striking cloud gong to trigger sound effects, handle-to-mallet control adaptation, left-hand movement control
 
 ## My Role
 
-- Project leader and main developer
-- 3D model inspection and mallet modeling (3ds Max)
-- Audio recording coordination and editing (Reaper)
-- Unity scripting (collision detection, handle adaptation, movement control)
-- Testing and refinement on Oculus Meta Quest 3
+- Team PM and lead developer
+- 3D model inspection and mallet modeling
+- Audio recording coordination and Reaper editing
+- Unity scripting, including collision detection, handle adaptation, and movement control
+- Testing and optimization on Oculus Meta Quest 3
 
 ## Project Highlights
 
-- First virtual reproduction of the ten-tone cloud gong, a rare traditional Chinese instrument
-- Solves the physical deformation and pitch change problems of real cloud gongs
-- Realistic collision-triggered sound effects with individually recorded pitches
-- Full VR immersion with right-hand mallet control and left-hand movement
-- Supports music education and digital preservation of Chinese traditional instruments
+- First VR reproduction of the ten-tone cloud gong, a rare traditional Chinese instrument
+- Solves the physical deformation and pitch instability problems of real cloud gongs
+- Uses per-note recorded samples to achieve realistic collision-triggered sound effects
+- Full VR immersive experience with right-hand mallet performance and left-hand movement
+- Applicable to music education and digital preservation of traditional Chinese instruments
 
-## Project Achievement & Future Plan
+## Project Achievements and Future Plans
 
-- **Current Achievement**: Complete VR performance system for ten-tone cloud gong, tested on Oculus Meta Quest 3.
-- **Future Plan**:
-  1. Improve the instrument model for easier learning
-  2. Add pitch identification function
-  3. Add detailed instrument information display
-  4. Inspire digital action in music education and new forms of inheriting Chinese traditional instruments
+- **Current Achievement**: Exhibited at the "Future Perspective - China-UK Youth Digital Creativity Exhibition" and the "Shanghai International Music Expo," attracting significant attention and engagement from numerous visitors.
+- **Future Plans**:
+  1. Optimize the instrument model to lower the learning curve
+  2. Add pitch recognition functionality
+  3. Add instrument knowledge display
+  4. Explore new forms of music education and traditional instrument heritage preservation
 
 ## Related Documents
 

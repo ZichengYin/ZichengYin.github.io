@@ -6,7 +6,6 @@ date: 2026-01-16
 tags:
   - 2D 射击
   - 声音设计
-  - Unity
   - 独立游戏
   - AI 音乐
 image: images/firesong-cover.jpg

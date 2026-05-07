@@ -3,6 +3,7 @@ export const honorItems: string[] = [
 '19th "Challenge Cup" Shanghai College Student Entrepreneurship Competition (University-Level) - Third Prize.',
 '2nd "Cultural & Creative Shanghai" Innovation and Entrepreneurship Competition - Innovation & Heritage Award.',
 'National Copyright Administration of China - Computer Software Copyright Registration.',
+'A work was selected to be exhibited at "The Future to See Future: UK-China Youth Digital Creation Exhibition (London)",from September 14 to 17, 2024 at Royal Mint Court, London.',
 '37th Shanghai Youth Science and Technology Innovation Competition - Provincial Second Prize.',
 'Shanghai DI Youth Innovation Thinking Competition - Provincial Third Place.',
 '1st Shanghai Youth Creativity Competition - Provincial Excellence Award.',

@@ -1,12 +1,11 @@
 ---
-title: 2. Firesong 2D Shooter Game
-description: A 2D side-scrolling shooter game featuring layered interactive sound design, 6 bullet types with unique audio-visual feedback, 5 enemy types, and AI-generated music processed in Cubase.
+title: 2. Firesong - 2D Side-Scrolling Shooter Game
+description: A 2D side-scrolling shooter game with layered interactive sound design at its core, featuring 6 bullet types, 5 enemy types, and AI-generated music post-processed in Cubase.
 order: 2
 date: 2026-01-16
 tags:
   - 2D Shooter
   - Sound Design
-  - Unity
   - Indie Game
   - AI Music
 image: images/firesong-cover.jpg
@@ -14,7 +13,7 @@ image: images/firesong-cover.jpg
 
 ## Project Introduction
 
-"Firesong" is a 2D side-scrolling shooter game developed with the Unity engine, based on the open-source project JetFire for secondary development and functional expansion. The game features layered interactive sound design as its core characteristic, combined with rich visual and auditory experiences to create an immersive shooting atmosphere.
+*Firesong* is a 2D side-scrolling shooter game developed with the Unity engine, based on the open-source project JetFire for secondary development and functional expansion. The game features layered interactive sound design as its core characteristic, deconstructing actions such as shooting, hitting, and jumping into multiple independent audio layers, combined with visual feedback to create a more immersive shooting experience.
 
 Controls: Players can jump using the S key or Spacebar, and attack using the K key or Left Mouse Button.
 
@@ -27,33 +26,33 @@ Controls: Players can jump using the S key or Spacebar, and attack using the K k
 ## Tech Stack
 
 - **Development Engine**: Unity (C# scripts)
-- **Art Design**: Hand-drawn original assets (characters, enemies, backgrounds, UI) using Photoshop
-- **Sound Design**: Layered interactive sound effects, dynamic mixing
+- **Art Design**: Hand-drawn original characters, enemies, backgrounds, and UI using Photoshop
+- **Sound Design**: Layered interactive sound effects and dynamic mixing
 - **Music Production**: Suno AI + Cubase (post-processing, tempo adjustment, key conversion)
 - **Core Features**: 6 bullet types, 5 enemy types, vertical movement shooting
 
 ## My Role
 
-- Sole developer and designer
-- Core gameplay logic programming (player control, shooting system, enemy AI, collision detection)
-- Original art design and animation (characters, enemies, scenes, UI)
+- Independent development and design
+- Core gameplay logic programming, including player control, shooting system, enemy AI, and collision detection
+- Original art and animation design
 - Layered sound effect design and implementation
-- Music generation and post-processing (Suno AI + Cubase)
+- AI music generation and Cubase post-processing
 - Game testing, debugging, and difficulty balancing
 
 ## Project Highlights
 
-- **Layered Interactive Sound Design**: Deconstructs single interaction behaviors (shooting, hitting, jumping) into multiple independent audio tracks. For example, a jump consists of character shout + jetpack startup + continuous operation sound.
-- **6 Unique Bullet Types**: Each bullet type has unique visual effects and sound feedback, randomly obtained during gameplay.
-- **5 Enemy Types**: Each enemy has different attack patterns and behavioral logic.
-- **AI-Generated Music with Post-Processing**: Uses Suno AI to generate two background music tracks (in-combat and out-of-combat), then processed in Cubase for tempo adjustment, key conversion, and effect addition. The game over screen uses a slow-tempo version of the main theme to convey a sense of loss.
-- **Custom Sound Effects per Bullet/Enemy**: Unique sound effect combinations for each bullet and enemy type, with real-time parameter adjustments (volume, pitch, reverb) via Unity scripts.
+- **Layered Interactive Sound Design**: Deconstructs single actions into multiple sound layers. For example, a jump consists of a character shout, jetpack startup sound, and continuous operation sound.
+- **6 Unique Bullet Types**: Each bullet type has independent visual effects and sound feedback, randomly obtained during gameplay.
+- **5 Enemy Types**: Different enemies have different attack patterns and behavioral logic.
+- **AI Music Post-Production**: Uses Suno AI to generate combat and non-combat background music, then processed in Cubase for tempo, key, and effect adjustments.
+- **Custom Sound Effects per Bullet/Enemy**: Real-time parameter adjustments (volume, pitch, reverb) via Unity scripts.
 - **Two Rounds of Playtesting**: Fixed bugs, adjusted difficulty and pacing based on player feedback.
 
-## Project Achievement & Future Plan
+## Project Achievements and Future Plans
 
-- **Current Achievement**: Completed a fully functional 2D shooter with layered sound design, 6 bullet types, 5 enemy types, and AI-generated music.
-- **Future Plan**:
+- **Current Achievement**: Completed a fully functional 2D shooter game with layered sound design, 6 bullet types, 5 enemy types, and AI-generated music.
+- **Future Plans**:
   1. Further expand bullet and enemy types
   2. Optimize sound effect layering and dynamic mixing
   3. Explore more advanced audio-visual synchronization techniques
