@@ -291,6 +291,14 @@
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
   text-align: left;
   overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  will-change: transform;
+}
+
+.internship-card:hover {
+  transform: scale(1.018);
+  border-color: color-mix(in srgb, var(--primary-color) 48%, var(--border-color));
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.14);
 }
 
 .internship-card::before {
@@ -370,6 +378,14 @@
   border: 1px solid var(--border-color);
   border-radius: 8px;
   text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  will-change: transform;
+}
+
+.experience-item:hover {
+  transform: scale(1.018);
+  border-color: color-mix(in srgb, var(--primary-color) 42%, var(--border-color));
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.14);
 }
 
 .experience-item h3 {
