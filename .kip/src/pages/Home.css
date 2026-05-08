@@ -536,7 +536,7 @@
   color: var(--text-secondary);
 }
 /* Lightbox 放大效果 */
-.lightbox {
+.home-lightbox {
   position: fixed;
   top: 0;
   left: 0;
@@ -550,13 +550,13 @@
   cursor: pointer;
 }
 
-.lightbox img {
+.home-lightbox img {
   max-width: 90%;
   max-height: 90%;
   object-fit: contain;
 }
 
-.lightbox .close {
+.home-lightbox .close {
   position: absolute;
   top: 20px;
   right: 30px;

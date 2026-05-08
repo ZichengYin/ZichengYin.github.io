@@ -244,7 +244,7 @@ function Home({ language }: HomeProps) {
       </section>
 
       {lightboxImage && (
-        <div className="lightbox" onClick={() => setLightboxImage(null)}>
+        <div className="home-lightbox" onClick={() => setLightboxImage(null)}>
           <span className="close">&times;</span>
           <img src={lightboxImage} alt="Enlarged view" />
         </div>
