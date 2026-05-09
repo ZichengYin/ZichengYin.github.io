@@ -63,12 +63,12 @@ export const galleryItems = [
     id: 12,
     title: "Artwork 10",
     image: "images/gallery/art12.jpg",
-    description: "Fan art of Arknights.",
+    description: "Fan art of Arknights.This painting is a commissioned artwork I created for a client.",
   },
   {
     id: 13,
     title: "Artwork 11",
     image: "images/gallery/art13.jpg",
-    description: "Commissioned works from my early freelance period. This piece has received over 1,000 likes across all platforms.",
+    description: "Commissioned works from my early freelance period. This painting is a commissioned artwork I created for a client.",
   },
 ]
