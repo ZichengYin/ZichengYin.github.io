@@ -20,7 +20,8 @@ The plugin employs a Linkwitz-Riley filter structure for three-band crossover, e
 ## Related Links
 
 - [GitHub Repository](https://github.com/ZichengYin/MultibandCompressor-vst3)
-- [Demo Video](https://youtu.be/OcuK2agQBCI)
+- [Demo Video (YouTube)](https://youtu.be/OcuK2agQBCI)
+- [Demo Video (Bilibili)](bilibili.com/video/BV1S6ge6uEHd/?spm_id_from=333.1387.homepage.video_card.click)
 
 ## Tech Stack
 

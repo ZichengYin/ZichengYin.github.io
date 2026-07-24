@@ -19,7 +19,8 @@ Remix Lab 是一个运行在浏览器中的音频创意混音工作站，用户�
 
 - [在线演示](https://remixlab.streamlit.app)
 - [GitHub 仓库](https://github.com/ZichengYin/music_remixer01)
-- [演示视频](https://youtu.be/Yf_kcK-cgqw)
+- [演示视频（YouTube）](https://youtu.be/Yf_kcK-cgqw)
+- [演示视频（Bilibili）](https://www.bilibili.com/video/BV1U6ge6uED5/?spm_id_from=333.1387.homepage.video_card.click)
 
 ## 技术栈
 

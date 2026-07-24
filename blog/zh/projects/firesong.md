@@ -20,7 +20,8 @@ image: images/firesong-cover.jpg
 ## 相关链接
 
 - [GitHub 仓库](https://github.com/ZichengYin/Firesong)
-- [演示视频](https://youtu.be/T5XNOFJDFvE)
+- [演示视频（YouTube）](https://youtu.be/T5XNOFJDFvE)
+- [演示视频（Bilibili）](https://www.bilibili.com/video/BV1S6ge6uEi5/?spm_id_from=333.1387.homepage.video_card.click)
 - [在线游玩](https://zichengyin.github.io/Firesong/)
 
 ## 技术栈

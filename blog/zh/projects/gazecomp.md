@@ -19,7 +19,8 @@ image: images/gazecomp-cover.jpg
 ## 相关链接
 
 - [GitHub 仓库](https://github.com/ZichengYin/MultibandCompressor-vst3)
-- [演示视频](https://youtu.be/OcuK2agQBCI)
+- [演示视频（YouTube）](https://youtu.be/OcuK2agQBCI)
+- [演示视频（Bilibili）](bilibili.com/video/BV1S6ge6uEHd/?spm_id_from=333.1387.homepage.video_card.click)
 
 ## 技术栈
 

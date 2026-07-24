@@ -19,7 +19,8 @@ This project is a browser-based audio remixing workstation that allows users to 
 
 - [Live Demo](https://remixlab.streamlit.app)
 - [GitHub Repository](https://github.com/ZichengYin/music_remixer01)
-- [Demo video](https://youtu.be/Yf_kcK-cgqw)
+- [Demo Video (YouTube)](https://youtu.be/Yf_kcK-cgqw)
+- [Demo Video (Bilibili)](https://www.bilibili.com/video/BV1U6ge6uED5/?spm_id_from=333.1387.homepage.video_card.click)
 
 ## Tech Stack
 

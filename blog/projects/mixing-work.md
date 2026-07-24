@@ -17,7 +17,8 @@ A traditional Chinese music mixing project that presents the unique charm of tra
 ## Related Links
 
 - [GitHub Repository](https://github.com/...)
-- [Demo Video](https://youtu.be/...)
+- [Demo Video (YouTube)](https://youtu.be/...)
+- [Demo Video (Bilibili)](https://www.bilibili.com/video/...)
 - [Play Online](https://...)
 - [Project Documentation](https://...)
 

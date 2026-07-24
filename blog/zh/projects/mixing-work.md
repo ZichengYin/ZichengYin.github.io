@@ -17,7 +17,8 @@ image: images/mix1-cover.jpg
 ## 相关链接
 
 - [GitHub 仓库](https://github.com/...)
-- [演示视频](https://youtu.be/...)
+- [演示视频（YouTube）](https://youtu.be/...)
+- [演示视频（Bilibili）](https://www.bilibili.com/video/...)
 - [在线收听](https://...)
 - [项目文档](https://...)
 

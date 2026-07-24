@@ -20,8 +20,9 @@ Currently, version 1.0 of the quiz system has been completed and has undergone p
 ## Related Links
 
 - [GitHub Repository](https://github.com/ZichengYin/Cognitive-Rehabilitation-Training-Quiz-System)
-- [Demo Video](https://youtu.be/pMkglwiK6CM)
-- [Online Experience](https://zichengyin.github.io/Cognitive-Rehabilitation-Training-Quiz-System/)
+- [Demo Video (YouTube)](https://youtu.be/pMkglwiK6CM)
+- [Demo Video (Bilibili)](bilibili.com/video/BV1U6ge6uER5/?spm_id_from=333.1387.homepage.video_card.click)
+- [Play Online](https://zichengyin.github.io/Cognitive-Rehabilitation-Training-Quiz-System/)
 
 > Full interactive functionality requires a BCI device. Please refer to the demo video for specific effects.
 

@@ -19,7 +19,8 @@ This project is a branch feature developed for the MuseBit team's "Virtual Instr
 ## Related Links
 
 - [Download Project Files](https://drive.google.com/file/d/1FBPGbyza_UyvXgfcJL651bFULmGuyHLf/view?usp=drive_link)
-- [Demo Video](https://youtu.be/v-qLc2289xM)
+- [Demo Video (YouTube)](https://youtu.be/v-qLc2289xM)
+- [Demo Video (Bilibili)](https://www.bilibili.com/video/BV1U6ge6uERv/?spm_id_from=333.1387.homepage.video_card.click)
 
 ## Tech Stack
 
