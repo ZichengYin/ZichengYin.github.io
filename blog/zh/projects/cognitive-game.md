@@ -21,7 +21,7 @@ image: images/cognitive-cover.jpg?raw=true
 
 - [GitHub 仓库](https://github.com/ZichengYin/Cognitive-Rehabilitation-Training-Quiz-System)
 - [演示视频（YouTube）](https://youtu.be/pMkglwiK6CM)
-- [演示视频（Bilibili）](https://www.bilibili.com/video/...)
+- [演示视频（Bilibili）](https://www.bilibili.com/video/BV1U6ge6uER5/?spm_id_from=333.1387.homepage.video_card.click&vd_source=211fcdfc3d98834faf84ffc6efb01104)
 - [在线体验](https://zichengyin.github.io/Cognitive-Rehabilitation-Training-Quiz-System/)
 
 > 完整交互功能需要脑机接口设备配合使用，具体效果可参考演示视频。

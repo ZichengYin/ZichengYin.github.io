@@ -20,7 +20,7 @@ image: images/desert-cover.jpg
 
 - [GitHub 仓库](https://github.com/ZichengYin/Desert-Rose)
 - [演示视频（YouTube）](https://youtu.be/ScHkPx1Qnuk)
-- [演示视频（Bilibili）](bilibili.com/video/BV1g6ge6gEVm/?spm_id_from=333.1387.homepage.video_card.click)
+- [演示视频（Bilibili）](https://www.bilibili.com/video/BV1g6ge6gEVm/?spm_id_from=333.1387.homepage.video_card.click&vd_source=211fcdfc3d98834faf84ffc6efb01104)
 - [在线游玩](https://zichengyin.github.io/Desert-Rose/)
 
 ## 技术栈
