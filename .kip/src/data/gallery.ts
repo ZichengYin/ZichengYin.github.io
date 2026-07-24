@@ -39,7 +39,7 @@ export const galleryItems = [
     id: 7,
     title: "Artwork 4",
     image: "images/gallery/art7.jpg",
-    description: "Fan art of Hazbin Hotel. This piece has received over 1,000 likes across all platforms.",
+    description: "Promotional Poster for a Sound Art Exhibition Proposal.",
   },
    {
     id: 8,
