@@ -104,7 +104,7 @@ export const localizedInternships: Record<Language, LocalizedTextItem[]> = {
 export const localizedExperience: Record<Language, LocalizedTextItem[]> = {
   en: experienceItems,
   zh: [
-    { title: '华为音悦家软件宣传片', body: '担任华为音悦家软件宣传片演员与声音制作人，与余承东董事长共同拍摄。' },
+    { title: '华为音悦家 DAW 软件宣传片', body: '华为音悦家是一款数字音频工作站（DAW）软件。担任该软件宣传片演员与声音制作人，并与余承东董事长共同拍摄。' },
     { title: '认知障碍儿童康复训练答题系统', body: '项目负责人，设计完整问答系统。项目入选“声音人才赋能计划”，并获第十九届“挑战杯”上海大学生创业计划竞赛校级三等奖。' },
     { title: '虚拟乐器博物馆', body: '项目经理，协调 3D 乐器建模与交互音频开发，在 Unity 中实现实时音频反馈，带领设计与技术团队并对接 3 家合作机构。' },
     { title: '音乐科技探索展示', body: '总导演，策划并执导游戏音频主题展示，舞台呈现原创游戏声音设计作品，协调 20 人团队完成音频与节目统筹。' },
