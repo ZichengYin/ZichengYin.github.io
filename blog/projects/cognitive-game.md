@@ -1,7 +1,7 @@
 ---
-title: 3. Cognitive Rehabilitation Training Quiz System for Children with Cognitive Impairments
+title: 4. Cognitive Rehabilitation Training Quiz System for Children with Cognitive Impairments
 description: A quiz-based rehabilitation training system for children with cognitive impairments, integrating brain-computer interface (BCI) and eye-tracking technologies to achieve personalized training and interaction.
-order: 3
+order: 4
 date: 2024-10-17
 tags:
   - Medical Rehabilitation

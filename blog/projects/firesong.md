@@ -1,7 +1,7 @@
 ---
-title: 2. Firesong - 2D Side-Scrolling Shooter Game
+title: 3. Firesong - 2D Side-Scrolling Shooter Game
 description: A 2D side-scrolling shooter game with layered interactive sound design at its core, featuring 6 bullet types, 5 enemy types, and AI-generated music post-processed in Cubase.
-order: 2
+order: 3
 date: 2026-01-16
 tags:
   - 2D Shooter

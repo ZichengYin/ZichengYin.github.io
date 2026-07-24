@@ -5,6 +5,10 @@ export interface ExperienceItem {
 
 export const experienceItems: ExperienceItem[] = [
 {
+  title: 'Huawei Music Home Software Promotional Film',
+  body: 'Actor and sound producer. Appeared in the promotional film for Huawei Music Home software and created its sound, filming alongside Huawei Chairman Richard Yu.',
+},
+{
   title: 'Cognitive Rehabilitation Training System',
   body: 'Project Lead. Designed the complete Q&A system. Led the project to be selected for the "Sound Talent Empowerment Program" Program. Won Third Prize in the 19th "Challenge Cup" Shanghai University Student Entrepreneurship Competition (School Level).',
 },

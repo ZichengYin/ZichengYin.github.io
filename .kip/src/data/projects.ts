@@ -4,10 +4,35 @@ import type { Project } from '../types'
 
 export const projects: Project[] = [
   {
-    "id": "remix_lab",
-    "title": "1. Remix Lab - Audio Remixing Workstation",
-    "description": "A web-based audio remixing tool with 11 preset effects, BPM detection, waveform visualization, and background audio overlay.",
+    "id": "new-project",
+    "title": "1. New Project",
+    "description": "Add the English project summary here.",
     "order": 1,
+    "date": "2026-07-24T00:00:00.000Z",
+    "tags": [
+      "To Be Updated"
+    ],
+    "image": null,
+    "content": "## Project Introduction\n\nAdd the detailed English project content here.\n\n## Related Links\n\n- [Project Link](https://...)\n\n## My Role\n\nAdd your role and contributions here.",
+    "html": "<h2>Project Introduction</h2>\n<p>Add the detailed English project content here.</p>\n<h2>Related Links</h2>\n<ul>\n<li><a href=\"https://...\">Project Link</a></li>\n</ul>\n<h2>My Role</h2>\n<p>Add your role and contributions here.</p>\n",
+    "source": "markdown",
+    "translations": {
+      "zh": {
+        "title": "1. 新作品",
+        "description": "请在这里填写中文项目简介。",
+        "tags": [
+          "待更新"
+        ],
+        "content": "## 项目简介\n\n请在这里填写中文项目的详细内容。\n\n## 相关链接\n\n- [项目链接](https://...)\n\n## 我的职责\n\n请在这里填写你在项目中的职责与贡献。",
+        "html": "<h2>项目简介</h2>\n<p>请在这里填写中文项目的详细内容。</p>\n<h2>相关链接</h2>\n<ul>\n<li><a href=\"https://...\">项目链接</a></li>\n</ul>\n<h2>我的职责</h2>\n<p>请在这里填写你在项目中的职责与贡献。</p>\n"
+      }
+    }
+  },
+  {
+    "id": "remix_lab",
+    "title": "2. Remix Lab - Audio Remixing Workstation",
+    "description": "A web-based audio remixing tool with 11 preset effects, BPM detection, waveform visualization, and background audio overlay.",
+    "order": 2,
     "date": "2026-04-29T00:00:00.000Z",
     "tags": [
       "Audio Processing",
@@ -21,7 +46,7 @@ export const projects: Project[] = [
     "source": "markdown",
     "translations": {
       "zh": {
-        "title": "1. Remix Lab - 音频 Remix 工作站",
+        "title": "2. Remix Lab - 音频 Remix 工作站",
         "description": "基于网页的音频创意混音工具，支持 11 种预设效果、BPM 检测、波形可视化和背景音叠加。",
         "tags": [
           "音频处理",
@@ -36,9 +61,9 @@ export const projects: Project[] = [
   },
   {
     "id": "firesong",
-    "title": "2. Firesong - 2D Side-Scrolling Shooter Game",
+    "title": "3. Firesong - 2D Side-Scrolling Shooter Game",
     "description": "A 2D side-scrolling shooter game with layered interactive sound design at its core, featuring 6 bullet types, 5 enemy types, and AI-generated music post-processed in Cubase.",
-    "order": 2,
+    "order": 3,
     "date": "2026-01-16T00:00:00.000Z",
     "tags": [
       "2D Shooter",
@@ -52,7 +77,7 @@ export const projects: Project[] = [
     "source": "markdown",
     "translations": {
       "zh": {
-        "title": "2. Firesong 2D 横版射击游戏",
+        "title": "3. Firesong 2D 横版射击游戏",
         "description": "一款以分层交互声音设计为核心的 2D 横版射击游戏，包含 6 种子弹、5 类敌人，以及经 Cubase 后期处理的 AI 生成音乐。",
         "tags": [
           "2D 射击",
@@ -67,9 +92,9 @@ export const projects: Project[] = [
   },
   {
     "id": "cognitive-game",
-    "title": "3. Cognitive Rehabilitation Training Quiz System for Children with Cognitive Impairments",
+    "title": "4. Cognitive Rehabilitation Training Quiz System for Children with Cognitive Impairments",
     "description": "A quiz-based rehabilitation training system for children with cognitive impairments, integrating brain-computer interface (BCI) and eye-tracking technologies to achieve personalized training and interaction.",
-    "order": 3,
+    "order": 4,
     "date": "2024-10-17T00:00:00.000Z",
     "tags": [
       "Medical Rehabilitation",
@@ -83,7 +108,7 @@ export const projects: Project[] = [
     "source": "markdown",
     "translations": {
       "zh": {
-        "title": "3. 认知障碍儿童康复训练答题系统",
+        "title": "4. 认知障碍儿童康复训练答题系统",
         "description": "面向认知障碍儿童的康复训练答题系统，结合脑机接口与眼动追踪技术，实现个性化训练与交互。",
         "tags": [
           "医疗康复",
@@ -98,9 +123,9 @@ export const projects: Project[] = [
   },
   {
     "id": "desert-rose",
-    "title": "4. Desert Rose - Timing and Rhythm Training Game",
+    "title": "5. Desert Rose - Timing and Rhythm Training Game",
     "description": "A music training game that transforms abstract note duration concepts into immersive gameplay, combining visual and auditory feedback with a narrative evolving from war to peace.",
-    "order": 4,
+    "order": 5,
     "date": "2025-04-05T00:00:00.000Z",
     "tags": [
       "Music Education",
@@ -115,7 +140,7 @@ export const projects: Project[] = [
     "source": "markdown",
     "translations": {
       "zh": {
-        "title": "4. Desert Rose - 时值节奏训练游戏",
+        "title": "5. Desert Rose - 时值节奏训练游戏",
         "description": "一款将抽象音符时值概念转化为沉浸式玩法的音乐训练游戏，结合视觉与听觉反馈，并以战争到和平的主题演变构建叙事。",
         "tags": [
           "音乐教育",
@@ -131,9 +156,9 @@ export const projects: Project[] = [
   },
   {
     "id": "vr-game",
-    "title": "5. VR Cloud Gong Performance Teaching Game",
+    "title": "6. VR Cloud Gong Performance Teaching Game",
     "description": "A VR-based virtual performance system for the ten-tone cloud gong, allowing users to play a rare traditional Chinese percussion instrument in an immersive virtual environment.",
-    "order": 5,
+    "order": 6,
     "date": "2024-01-10T00:00:00.000Z",
     "tags": [
       "Virtual Reality",
@@ -148,7 +173,7 @@ export const projects: Project[] = [
     "source": "markdown",
     "translations": {
       "zh": {
-        "title": "5. VR 云锣演奏教学游戏",
+        "title": "6. VR 云锣演奏教学游戏",
         "description": "基于 VR 的十音云锣虚拟演奏系统，让用户在沉浸式虚拟环境中演奏少见中国传统打击乐器。",
         "tags": [
           "虚拟现实",
@@ -164,9 +189,9 @@ export const projects: Project[] = [
   },
   {
     "id": "mixing-work",
-    "title": "6. Chinese Traditional Music Mixing Project",
+    "title": "7. Chinese Traditional Music Mixing Project",
     "description": "Traditional Chinese music mixing production",
-    "order": 6,
+    "order": 7,
     "date": "2026-04-15T00:00:00.000Z",
     "tags": [
       "Mixing",
@@ -179,7 +204,7 @@ export const projects: Project[] = [
     "source": "markdown",
     "translations": {
       "zh": {
-        "title": "6. 中国传统音乐混音项目",
+        "title": "7. 中国传统音乐混音项目",
         "description": "以现代混音技术呈现中国传统民乐质感的音乐制作项目。",
         "tags": [
           "混音",
