@@ -9,8 +9,8 @@ export const experienceItems: ExperienceItem[] = [
   body: 'Contributed to the audio design and production of multiple casual games for international markets, including Merge Princess Saga, Block Spark: Classic Puzzle, SoEasy Mahjong: Solitaire, Unscrew Family: Bolt Puzzle, and Tile Puzzle Classic. Independently handled sound effect design, audio asset management, and Unity integration; ensured cross-platform audio compatibility and performance optimization; and collaborated with the game design and art teams to iterate on audio feedback.',
 },
 {
-  title: 'THE FINALS — In-Game Communications Board Audio Support',
-  body: 'Served as a member of the audio support team for the in-game communications board in THE FINALS. Produced and tested game audio assets, verified their functionality and in-game presentation, and collaborated with the team to identify issues and refine the overall audio experience.',
+  title: 'THE FINALS — Game Audio',
+  body: 'Audio support team member for the Chinese mainland version of THE FINALS. Handled audio asset production, testing, and in-game verification, collaborating with the team to troubleshoot and optimize the overall audio experience.',
 },
 {
   title: 'Cognitive Rehabilitation Training System',

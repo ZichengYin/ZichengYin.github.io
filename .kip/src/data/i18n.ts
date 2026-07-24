@@ -105,7 +105,7 @@ export const localizedExperience: Record<Language, LocalizedTextItem[]> = {
   en: experienceItems,
   zh: [
     { title: '海外休闲游戏音频设计与制作', body: '参与《Merge Princess Saga》《Block Spark: Classic Puzzle》《SoEasy Mahjong: Solitaire》《Unscrew Family: Bolt Puzzle》《Tile Puzzle Classic》等多款海外休闲游戏的音频设计与制作。独立完成游戏音效设计、音频资源管理与 Unity 引擎集成，保障多平台音频适配与性能优化，配合策划与美术团队进行音频反馈迭代。' },
-    { title: '《终极角逐》（THE FINALS）游戏通讯板音频支持', body: '担任《终极角逐》（THE FINALS）游戏通讯板音频支持组成员，负责相关游戏音频素材的制作与测试，验证音频功能及其在游戏内的呈现效果，并配合团队排查问题、持续优化整体音频体验。' },
+    { title: '《终极角逐》（THE FINALS）游戏音频', body: '担任《终极角逐》（THE FINALS）游戏国服音频支持组成员，负责相关游戏音频素材的制作与测试，验证音频功能及其在游戏内的呈现效果，并配合团队排查问题、持续优化整体音频体验。' },
     { title: '认知障碍儿童康复训练答题系统', body: '项目负责人，设计完整问答系统。项目入选“声音人才赋能计划”，并获第十九届“挑战杯”上海大学生创业计划竞赛校级三等奖。' },
     { title: '虚拟乐器博物馆', body: '项目经理，协调 3D 乐器建模与交互音频开发，在 Unity 中实现实时音频反馈，带领设计与技术团队并对接 3 家合作机构。' },
     { title: '音乐科技探索展示', body: '总导演，策划并执导游戏音频主题展示，舞台呈现原创游戏声音设计作品，协调 20 人团队完成音频与节目统筹。' },
