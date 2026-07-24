@@ -5,10 +5,6 @@ export interface ExperienceItem {
 
 export const experienceItems: ExperienceItem[] = [
 {
-  title: 'Huawei Yinyuejia DAW Software Promotional Film',
-  body: 'Actor and sound producer for the promotional film of Huawei Yinyuejia, a digital audio workstation (DAW). Appeared in the film alongside Huawei Chairman Richard Yu and contributed to its sound production.',
-},
-{
   title: 'Cognitive Rehabilitation Training System',
   body: 'Project Lead. Designed the complete Q&A system. Led the project to be selected for the "Sound Talent Empowerment Program" Program. Won Third Prize in the 19th "Challenge Cup" Shanghai University Student Entrepreneurship Competition (School Level).',
 },
@@ -23,6 +19,10 @@ export const experienceItems: ExperienceItem[] = [
 {
   title: 'Huawei Terminal Boya Project — Beta Testing',
   body: 'Module Lead. Independently managed the full documentation process for the music visualization module, including parameter review, standard setting, and final delivery. Ensured stable module presentation at the demo booth.',
+},
+{
+  title: 'Huawei Yinyuejia DAW Software Promotional Film',
+  body: 'Actor and sound producer for the promotional film of Huawei Yinyuejia, a digital audio workstation (DAW). Appeared in the film alongside Huawei Chairman Richard Yu and contributed to its sound production.',
 },
 {
   title: 'Sci-Fi Music Technology Exploration Tour (Jinan Station) — Commercial Presentation Host',
