@@ -122,7 +122,7 @@
 /* Layout: Cards */
 [data-layout="cards"] .project-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
 }
 
@@ -135,8 +135,7 @@
 
 [data-layout="cards"] .project-image {
   width: 100%;
-  aspect-ratio: 3 / 2;
-  height: auto;
+  height: 180px;
   border-radius: 0;
 }
 
@@ -147,10 +146,4 @@
 [data-layout="cards"] .project-link {
   margin: 0 1.5rem 1.5rem;
   text-align: center;
-}
-
-@media (max-width: 600px) {
-  [data-layout="cards"] .project-list {
-    grid-template-columns: 1fr;
-  }
 }

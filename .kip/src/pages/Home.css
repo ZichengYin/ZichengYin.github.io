@@ -145,9 +145,6 @@
 }
 
 .project-list {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -155,9 +152,10 @@
 
 .project-item {
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
   background: var(--card-bg);
   border-radius: 8px;
   border: 1px solid var(--border-color);
@@ -167,7 +165,7 @@
 
 .project-item:hover {
   border-color: var(--primary-color);
-  transform: translateY(-4px);
+  transform: translateX(4px);
 }
 
 .project-item.has-image {
@@ -175,9 +173,9 @@
 }
 
 .project-image {
-  width: 100%;
-  aspect-ratio: 3 / 2;
-  height: auto;
+  flex-shrink: 0;
+  width: 120px;
+  height: 80px;
   border-radius: 6px;
   overflow: hidden;
   background: var(--tag-bg);
@@ -192,11 +190,11 @@
 .project-content {
   flex: 1;
   text-align: left;
-  padding: 0.9rem 0 0;
+  padding-right: 1.5rem;
 }
 
 .project-title {
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin: 0 0 0.5rem 0;
 }
 
@@ -224,14 +222,12 @@
 
 .project-link {
   flex-shrink: 0;
-  align-self: flex-start;
-  margin-top: 1rem;
-  padding: 0.5rem 0.9rem;
+  padding: 0.6rem 1.2rem;
   background: var(--primary-color);
   color: white;
   border-radius: 6px;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-decoration: none;
   transition: all 0.2s ease;
   white-space: nowrap;
@@ -329,7 +325,7 @@
   margin: 0;
   padding-left: 0.55rem;
   color: color-mix(in srgb, var(--text-secondary) 88%, white 12%);
-  font-size: 0.84rem;
+  font-size: 0.95rem;
   line-height: 1.75;
 }
 
@@ -468,16 +464,14 @@
   }
 
   .project-item {
+    flex-direction: column;
+    align-items: flex-start;
     gap: 1rem;
-  }
-
-  .project-list {
-    grid-template-columns: 1fr;
   }
 
   .project-image {
     width: 100%;
-    height: auto;
+    height: 140px;
   }
 
   .project-content {
