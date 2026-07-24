@@ -18,7 +18,8 @@ image: images/gazecomp-cover.jpg
 
 ## 相关链接
 
-- [项目链接](https://...)
+- [GitHub 仓库](https://github.com/ZichengYin/MultibandCompressor-vst3)
+- [演示视频](https://youtu.be/...)
 
 ## 技术栈
 
@@ -56,4 +57,4 @@ image: images/gazecomp-cover.jpg
 
 ## 相关文档
 
-- [制作报告（PDF）]（链接）
+- [制作报告（PDF）](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/GazeComp%20-%20Gaze-Driven%20Dynamic%20Multi-Band%20Compressor.pdf)

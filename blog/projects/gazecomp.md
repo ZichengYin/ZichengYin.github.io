@@ -57,4 +57,4 @@ The plugin employs a Linkwitz-Riley filter structure for three-band crossover, e
 
 ## Related Documents
 
-- [Production Report (PDF)](link)
+- [Production Report (PDF)](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/GazeComp%20-%20Gaze-Driven%20Dynamic%20Multi-Band%20Compressor.pdf)

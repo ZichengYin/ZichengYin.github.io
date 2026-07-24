@@ -59,4 +59,4 @@ Controls: Players can jump using the S key or Spacebar, and attack using the K k
 
 ## Related Documents
 
-- [Production Report (PDF)](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Firesong%E5%88%B6%E4%BD%9C%E6%8A%A5%E5%91%8A.pdf)
+- [Production Report (PDF)](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Firesong%20report.pdf)

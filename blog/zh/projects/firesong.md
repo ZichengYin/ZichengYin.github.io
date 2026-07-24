@@ -59,4 +59,4 @@ image: images/firesong-cover.jpg
 
 ## 相关文档
 
-- [制作报告（PDF）](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Firesong%E5%88%B6%E4%BD%9C%E6%8A%A5%E5%91%8A.pdf)
+- [制作报告（PDF）](https://raw.githubusercontent.com/ZichengYin/ZichengYin.github.io/master/files/Firesong%20report.pdf)
