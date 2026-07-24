@@ -20,7 +20,7 @@ image: images/tonemapper-cover.jpg
 ## 相关链接
 
 - [GitHub 仓库](https://github.com/ZichengYin/ToneMapper)
-- [演示视频](https://youtu.be/...)
+- [演示视频](https://youtu.be/V3a5TcdjX58)
 
 ## 技术栈
 

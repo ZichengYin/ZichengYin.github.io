@@ -20,7 +20,7 @@ image: images/cognitive-cover.jpg?raw=true
 ## 相关链接
 
 - [GitHub 仓库](https://github.com/ZichengYin/Cognitive-Rehabilitation-Training-Quiz-System)
-- [演示视频](https://youtu.be/...)
+- [演示视频](https://youtu.be/pMkglwiK6CM)
 - [在线体验](https://zichengyin.github.io/Cognitive-Rehabilitation-Training-Quiz-System/)
 
 > 完整交互功能需要脑机接口设备配合使用，具体效果可参考演示视频。

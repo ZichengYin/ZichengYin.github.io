@@ -19,7 +19,7 @@ image: images/vr-game-cover.jpg
 ## 相关链接
 
 - [下载工程文件](https://drive.google.com/file/d/1FBPGbyza_UyvXgfcJL651bFULmGuyHLf/view?usp=drive_link)
-- [演示视频](https://youtu.be/...)
+- [演示视频](https://youtu.be/v-qLc2289xM)
 
 ## 技术栈
 

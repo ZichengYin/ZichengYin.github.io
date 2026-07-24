@@ -19,7 +19,7 @@ image: images/desert-cover.jpg
 ## Related Links
 
 - [GitHub Repository](https://github.com/ZichengYin/Desert-Rose)
-- [Demo Video](https://youtu.be/...)
+- [Demo Video](https://youtu.be/ScHkPx1Qnuk)
 - [Play Online](https://zichengyin.github.io/Desert-Rose/)
 
 ## Tech Stack

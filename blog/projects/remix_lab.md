@@ -19,7 +19,7 @@ This project is a browser-based audio remixing workstation that allows users to 
 
 - [Live Demo](https://remixlab.streamlit.app)
 - [GitHub Repository](https://github.com/ZichengYin/music_remixer01)
-- [Demo video](https://github.com/ZichengYin/music_remixer01)
+- [Demo video](https://youtu.be/Yf_kcK-cgqw)
 
 ## Tech Stack
 

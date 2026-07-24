@@ -20,7 +20,7 @@ Controls: Players can jump using the S key or Spacebar, and attack using the K k
 ## Related Links
 
 - [GitHub Repository](https://github.com/ZichengYin/Firesong)
-- [Demo Video](https://youtu.be/...)
+- [Demo Video](https://youtu.be/T5XNOFJDFvE)
 - [Play Online](https://zichengyin.github.io/Firesong/)
 
 ## Tech Stack

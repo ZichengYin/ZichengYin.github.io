@@ -19,7 +19,7 @@ image: images/tonemapper-cover.jpg
 ## Related Links
 
 - [GitHub Repository](https://github.com/ZichengYin/ToneMapper)
-- [Demo Video](https://youtu.be/...)
+- [Demo Video](https://youtu.be/V3a5TcdjX58)
 
 ## Tech Stack
 
