@@ -4,7 +4,7 @@ description: 一款基于 JUCE 的 VST3 音频插件，通过 48 频段滤波器
 order: 8
 date: 2025-12-24
 tags:
- - 音频插件
+  - 音频插件
   - 频谱处理
   - VST3
   - JUCE
