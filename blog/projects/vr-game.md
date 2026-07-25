@@ -6,9 +6,9 @@ date: 2024-01-10
 tags:
   - Virtual Reality
   - Music Technology
-  - Traditional Chinese Instrument Culture
   - Interaction Design
   - Music Education
+  - Traditional Chinese Instrument Culture
 image: images/vr-game-cover.jpg
 ---
 
