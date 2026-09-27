@@ -157,6 +157,8 @@
 .profile-content:has(.photo-carousel) .photo-carousel {
   width: 100%;
   margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .projects-section h2 {
