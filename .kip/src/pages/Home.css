@@ -72,8 +72,8 @@
 }
 
 .avatar {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   margin: 0 auto 1.5rem;
   border-radius: 50%;
   overflow: hidden;
@@ -140,6 +140,23 @@
   width: min(1100px, calc(100vw - 3rem));
   margin-left: 50%;
   transform: translateX(-50%);
+}
+
+/* Keep the profile photo wall as wide as the projects section. */
+.profile-content:has(.photo-carousel) {
+  width: min(1100px, calc(100vw - 3rem));
+  max-width: none;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.profile-content:has(.photo-carousel) h2:has(.section-title) {
+  display: none;
+}
+
+.profile-content:has(.photo-carousel) .photo-carousel {
+  width: 100%;
+  margin-top: 0;
 }
 
 .projects-section h2 {
@@ -459,6 +476,15 @@
 @media (max-width: 600px) {
   .home {
     padding: 0.86rem 1rem 2rem;
+  }
+
+  .avatar {
+    width: 132px;
+    height: 132px;
+  }
+
+  .profile-content:has(.photo-carousel) {
+    width: calc(100vw - 2rem);
   }
 
   .projects-section {
