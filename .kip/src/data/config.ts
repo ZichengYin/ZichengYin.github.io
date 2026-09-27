@@ -5,7 +5,7 @@ import type { SiteConfig } from '../types'
 export const siteConfig: SiteConfig = {
   "title": "Zicheng Yin | 殷紫珵's Personal Website",
   "root": "/",
-  "theme": "ocean",
+  "theme": "china-red",
   "layout": {
     "style": "cards",
     "avatar": "square",

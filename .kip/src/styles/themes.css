@@ -59,6 +59,19 @@
   --tag-bg: rgba(247, 37, 133, 0.2);
 }
 
+/* Theme: Chinese Red */
+[data-theme="china-red"] {
+  --primary-color: #ff0000;
+  --text-primary: #8f1717;
+  --text-secondary: #6f3b2b;
+  --bg-primary: #faead3;
+  --bg-gradient: linear-gradient(180deg, #faead3 0%, #f6d9b8 100%);
+  --bg-secondary: #f8dfc3;
+  --card-bg: #fff5e8;
+  --border-color: #e9b9a5;
+  --tag-bg: rgba(255, 0, 0, 0.1);
+}
+
 /* ===== Layout Variants ===== */
 
 /* Avatar Shapes */
