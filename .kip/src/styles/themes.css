@@ -62,14 +62,14 @@
 /* Theme: Chinese Red */
 [data-theme="china-red"] {
   --primary-color: #ff0000;
-  --text-primary: #8f1717;
-  --text-secondary: #6f3b2b;
-  --bg-primary: #faead3;
-  --bg-gradient: linear-gradient(180deg, #faead3 0%, #f6d9b8 100%);
-  --bg-secondary: #f8dfc3;
-  --card-bg: #fff5e8;
-  --border-color: #e9b9a5;
-  --tag-bg: rgba(255, 0, 0, 0.1);
+  --text-primary: #111111;
+  --text-secondary: #5f5f5f;
+  --bg-primary: #ffffff;
+  --bg-gradient: linear-gradient(180deg, #ffffff 0%, #f4f4f4 100%);
+  --bg-secondary: #f2f2f2;
+  --card-bg: #ffffff;
+  --border-color: #d8d8d8;
+  --tag-bg: rgba(255, 0, 0, 0.08);
 }
 
 /* ===== Layout Variants ===== */
